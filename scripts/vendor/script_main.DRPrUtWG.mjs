@@ -41,8 +41,8 @@ import {
   l as L,
   rt as R,
   s as z,
-} from "./framer.C4XKzISP.mjs";
-import { _ as B, v as V } from "./shared-lib.g_c2uSJ3.mjs";
+} from "./framer.gUt6fAa6.mjs";
+import { _ as B, v as V } from "./shared-lib.Cs4X17Eg.mjs";
 function H({ webPageId: e, children: t, style: n, ...r }) {
   let i = { augiA20Il: { gDUC70AIa: `#contact`, ZCuoFUPLw: `#top` } }[e] ?? {};
   switch (e) {
@@ -56,9 +56,9 @@ function U(e) {
   switch (e) {
     case `augiA20Il`:
       return [
-        { hash: `v7zdi2`, mediaQuery: `(min-width: 1200px)` },
-        { hash: `19tkvcc`, mediaQuery: `(min-width: 810px) and (max-width: 1199.98px)` },
         { hash: `sri1x7`, mediaQuery: `(max-width: 809.98px)` },
+        { hash: `19tkvcc`, mediaQuery: `(min-width: 810px) and (max-width: 1199.98px)` },
+        { hash: `v7zdi2`, mediaQuery: `(min-width: 1200px)` },
       ];
     default:
       return;
@@ -73,7 +73,6 @@ async function W({ routeId: e, pathVariables: n, localeId: s, collectionItemId: 
     onPageLocalizationSupport: !0,
     onPageMoveTool: !0,
     onPageRichTextBlockSelection: !0,
-    privateRouterReplaceState: !0,
     scrollRestoration: !0,
     synchronousNavigationOnDesktop: !1,
     yieldOnTap: !1,
@@ -88,7 +87,7 @@ async function W({ routeId: e, pathVariables: n, localeId: s, collectionItemId: 
         routes: q,
         collectionUtils: Y,
         framerSiteId: X,
-        notFoundPage: O(() => import(`./shared-lib.g_c2uSJ3.mjs`).then((e) => (e.i(), e.r))),
+        notFoundPage: O(() => import(`./shared-lib.Cs4X17Eg.mjs`).then((e) => (e.i(), e.r))),
         isReducedMotion: void 0,
         localeId: s,
         locales: J,
@@ -127,7 +126,7 @@ async function W({ routeId: e, pathVariables: n, localeId: s, collectionItemId: 
         adaptLayoutToTextDirection: !0,
         LayoutTemplate: H,
         loadSnippetsModule: new L(
-          () => import(`./I7ghIlXDjRdUG5hyCbPpqvsZihZ-cJpz9rq0AxyDFdo.ChKsh2aA.mjs`)
+          () => import(`./NdEwRTDh0-REObnxDhbKIn7CvfGt7PPjXL99RaRCyvI.CjkVbHYz.mjs`)
         ),
         initialCollectionItemId: d,
       }),
@@ -265,7 +264,7 @@ e(() => {
     (q = {
       augiA20Il: {
         elements: { PpqI0Bzwt: `top`, yhfDy_p6a: `contact` },
-        page: O(() => import(`./x4vGNGwMYtMZT7-0twqMBJTwsZW_y2qDrLtt9w_kJg8.D6hSQLPp.mjs`)),
+        page: O(() => import(`./be2nQB644Am1H_8r3_8vWNyA1Miy2PCnsyrwBOrQavA.D0KaJFWu.mjs`)),
         path: `/`,
       },
     }),
@@ -285,4 +284,4 @@ e(() => {
   }
 })();
 export { U as getLayoutTemplateBreakpoints, W as getPageRoot };
-//# sourceMappingURL=script_main.BD4VMicn.mjs.map
+//# sourceMappingURL=script_main.DRPrUtWG.mjs.map
