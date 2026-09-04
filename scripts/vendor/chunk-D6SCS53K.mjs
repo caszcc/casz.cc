@@ -1,0 +1,33 @@
+import { a as o } from "./chunk-QFU6OGL3.mjs";
+import { a as i } from "./chunk-JTCAKYEM.mjs";
+import { a as h } from "./chunk-W774OHJB.mjs";
+import { e as r } from "./chunk-WLHSDIGQ.mjs";
+var f = r(h());
+var t = "i1ubxgci",
+  p = "ieuh0tq",
+  n = "if3vyou",
+  a = "io3pwrq",
+  s = "i17mp6by";
+var l = r(i()),
+  H = f.default.forwardRef(function (
+    {
+      className: c,
+      children: u,
+      hasError: e,
+      hasWarning: d,
+      large: g = !1,
+      multiline: m = !1,
+      ...b
+    },
+    x
+  ) {
+    return (0, l.jsx)("div", {
+      ref: x,
+      className: o(t, g && a, d && !e && n, e && p, m && s, c),
+      draggable: !1,
+      ...b,
+      children: u,
+    });
+  });
+export { H as a };
+//# sourceMappingURL=https://app.framerstatic.com/chunk-D6SCS53K.mjs.map
