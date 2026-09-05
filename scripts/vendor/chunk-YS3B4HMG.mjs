@@ -47,4 +47,4 @@ function d(t, e) {
   }
 }
 export { o as a, d as b };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-YS3B4HMG.mjs.map
+//# sourceMappingURL=chunk-YS3B4HMG.mjs.map

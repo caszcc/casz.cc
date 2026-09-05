@@ -1,5 +1,5 @@
-import { a as l } from "./chunk-W774OHJB.mjs";
-import { c as a } from "./chunk-WLHSDIGQ.mjs";
+import { a as l } from "chunk-W774OHJB.mjs";
+import { c as a } from "chunk-WLHSDIGQ.mjs";
 var f = a((i) => {
   "use strict";
   var r = l();
@@ -77,4 +77,4 @@ use-sync-external-store/cjs/use-sync-external-store-shim.production.js:
    * LICENSE file in the root directory of this source tree.
    *)
 */
-//# sourceMappingURL=https://app.framerstatic.com/chunk-JO5QQGW4.mjs.map
+//# sourceMappingURL=chunk-JO5QQGW4.mjs.map

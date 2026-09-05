@@ -1,4 +1,4 @@
-import { b as n } from "./chunk-ISW56VHA.mjs";
+import { b as n } from "chunk-ISW56VHA.mjs";
 var d = "dimension",
   e = { 0: 0, 20: 2, 30: 3, 40: 4, 50: 5, 80: 8, 100: 10, 150: 15, 200: 20, 300: 30, 400: 40 },
   t = { 20: 2, 40: 4, 50: 5, 80: 8, 100: 10, 120: 12, 130: 13, 150: 15, 160: 16, 180: 18 },
@@ -142,4 +142,4 @@ var d = "dimension",
   },
   l = { css: n(o, d, "px"), values: o };
 export { l as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-V67DAEPT.mjs.map
+//# sourceMappingURL=chunk-V67DAEPT.mjs.map

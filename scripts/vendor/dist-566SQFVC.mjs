@@ -1,6 +1,6 @@
-import { a, b, c, d, e } from "./chunk-6C6VSETA.mjs";
-import "./chunk-KYPY4QS7.mjs";
-import "./chunk-WLHSDIGQ.mjs";
+import { a, b, c, d, e } from "chunk-6C6VSETA.mjs";
+import "chunk-KYPY4QS7.mjs";
+import "chunk-WLHSDIGQ.mjs";
 export {
   a as Decoration,
   b as DecorationSet,
@@ -8,4 +8,4 @@ export {
   d as __endComposition,
   c as __parseFromClipboard,
 };
-//# sourceMappingURL=https://app.framerstatic.com/dist-566SQFVC.mjs.map
+//# sourceMappingURL=dist-566SQFVC.mjs.map

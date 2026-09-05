@@ -1,4 +1,4 @@
-import { a as rr, b as nr, d as ir, e as or } from "./chunk-Y7I3OVO3.mjs";
+import { a as rr, b as nr, d as ir, e as or } from "chunk-Y7I3OVO3.mjs";
 import {
   a as Zt,
   c as er,
@@ -13,10 +13,10 @@ import {
   l as w,
   m as R,
   n as S,
-} from "./chunk-JHGFSY77.mjs";
-import { a as I, b as Jt, c as Qt, e as re, f as $, g as ne, i as _e } from "./chunk-5JQQYZG5.mjs";
-import { a as Xt } from "./chunk-VBCXFFMV.mjs";
-import { b as h } from "./chunk-4JY5UMT2.mjs";
+} from "chunk-JHGFSY77.mjs";
+import { a as I, b as Jt, c as Qt, e as re, f as $, g as ne, i as _e } from "chunk-5JQQYZG5.mjs";
+import { a as Xt } from "chunk-VBCXFFMV.mjs";
+import { b as h } from "chunk-4JY5UMT2.mjs";
 var kn = ["client", "seq", "id", "key", "value", "user"],
   ht = class {
     encode(e, t) {
@@ -28,7 +28,7 @@ var kn = ["client", "seq", "id", "key", "value", "user"],
     }
     decode(e, t) {
       let r = e.main;
-      for (; !t.endOfFile(); ) {
+      for (; !t.endOfFile();) {
         let n = t.readString(),
           i = r.columns[n];
         h(i, () => `Column ${n} not found`);
@@ -265,7 +265,7 @@ var En = 2 ** 17,
     }
     *writeSlices(e) {
       let t = Math.ceil(e / this.bucketSize);
-      for (; this.buckets.length < t; )
+      for (; this.buckets.length < t;)
         this.buckets.push(new ie(this.bucketSize, this.arrayConstructor));
       let r = 0;
       for (let n = 0; n < t; n++) {
@@ -528,11 +528,11 @@ function Fn(o, e = Un) {
   if (((r += 1), (r = we(o, r)), o[r] === oe)) r += 1;
   else {
     let n = !1;
-    for (; r < o.length; ) {
+    for (; r < o.length;) {
       let i = r,
         s = r,
         a;
-      for (; r < o.length; ) {
+      for (; r < o.length;) {
         let d = $n(o, r);
         ((s = d), (r = we(o, d)));
         let c = o[r];
@@ -574,7 +574,7 @@ function jn(o, e, t, r) {
 function $n(o, e) {
   let t = 0,
     r = e;
-  for (; r < o.length; ) {
+  for (; r < o.length;) {
     switch (o[r]) {
       case yr:
         r = Wn(o, r);
@@ -613,7 +613,7 @@ function Wn(o, e) {
 }
 function we(o, e) {
   let t = e;
-  for (; t < o.length; ) {
+  for (; t < o.length;) {
     let r = o[t];
     if (r === 32 || r === 9 || r === 10 || r === 13) t += 1;
     else break;
@@ -636,7 +636,7 @@ var _ = class {
   ensureCapacity(e) {
     if (e <= this.indices.length) return;
     let t = this.indices.length || 1;
-    for (; t < e; ) t <<= 1;
+    for (; t < e;) t <<= 1;
     let r = new Uint32Array(t);
     (r.set(this.indices), (this.indices = r));
   }
@@ -759,7 +759,7 @@ function gt(o, e) {
     return "0".repeat(e);
   let t = [],
     r = o;
-  for (; r > 0; ) (t.push(yt[r % Se]), (r = Math.floor(r / Se)));
+  for (; r > 0;) (t.push(yt[r % Se]), (r = Math.floor(r / Se)));
   let n = t.reverse().join("");
   return (
     h(n.length <= e, () => `Encoded value exceeds width: ${n} from ${o} width ${e}`),
@@ -981,7 +981,7 @@ var ci = ["client", "seq", "batch", "id", "key", "value", "user"],
     }
     decode(e, t) {
       let r = e.main;
-      for (; !t.endOfFile(); ) {
+      for (; !t.endOfFile();) {
         let n = t.readString(),
           i = r.columns[n];
         h(i, () => `Column ${n} not found`);
@@ -1245,7 +1245,7 @@ var H = class o {
 function ae(o, e, t) {
   let r = 0,
     n = o.length;
-  for (; r < n; ) {
+  for (; r < n;) {
     let i = Math.floor((r + n) / 2),
       s = o[i];
     t(s, e) < 0 ? (r = i + 1) : (n = i);
@@ -1439,7 +1439,7 @@ var j = 1024 * 1024,
     }
     writeVarUint(e) {
       let t = e;
-      for (; t >= 128; ) (this.writeUint8((t % 128) | 128), (t = Math.floor(t / 128)));
+      for (; t >= 128;) (this.writeUint8((t % 128) | 128), (t = Math.floor(t / 128)));
       this.writeUint8(t);
     }
     static paddedVarUintWidth = 8;
@@ -1464,7 +1464,7 @@ var j = 1024 * 1024,
     }
     writeBytes(e) {
       let t = 0;
-      for (; t < e.length; ) {
+      for (; t < e.length;) {
         this.remainingInCurrentChunk() === 0 && this.addChunk();
         let r = this.currentChunk(),
           n = this.currentChunkOffset(),
@@ -1489,7 +1489,7 @@ var j = 1024 * 1024,
     writeBytesAt(e, t) {
       let r = e,
         n = 0;
-      for (; n < t.length; ) {
+      for (; n < t.length;) {
         let { chunk: i, chunkIndex: s } = this.getChunk(r),
           a = s * j,
           d = r - a,
@@ -1498,7 +1498,7 @@ var j = 1024 * 1024,
       }
     }
     writePadding(e) {
-      for (; e > 0; ) {
+      for (; e > 0;) {
         this.remainingInCurrentChunk() === 0 && this.addChunk();
         let t = Math.min(e, this.remainingInCurrentChunk());
         ((this.byteOffset += t), (e -= t));
@@ -1582,7 +1582,7 @@ var D = class o {
 function Hr(o, e) {
   let t = 0,
     r = o.length - 1;
-  for (; t <= r; ) {
+  for (; t <= r;) {
     let n = (t + r) >>> 1,
       i = o[n];
     if (i < e) {
@@ -1627,7 +1627,7 @@ var Re = 2048,
       for (let e = 0; e < this.words.length; e++) {
         let t = this.words[e] ?? 0,
           r = e << 5;
-        for (; t !== 0; ) {
+        for (; t !== 0;) {
           let n = t & -t,
             i = 31 - Math.clz32(n);
           (yield r + i, (t &= t - 1));
@@ -1660,7 +1660,7 @@ function vi(o, e) {
     n = e.values,
     i = 0,
     s = 0;
-  for (; i < r.length && s < n.length; ) {
+  for (; i < r.length && s < n.length;) {
     let a = r[i],
       d = n[s];
     if (a === d) {
@@ -1703,7 +1703,7 @@ function xi(o, e) {
 function Ai(o) {
   let e = o >>> 0,
     t = 0;
-  for (; e !== 0; ) ((e &= e - 1), (t += 1));
+  for (; e !== 0;) ((e &= e - 1), (t += 1));
   return t;
 }
 var Ur = 4096,
@@ -2057,7 +2057,7 @@ var Mt = class {
   }
   decode(e, t) {
     let r = e.main;
-    for (; !t.endOfFile(); ) {
+    for (; !t.endOfFile();) {
       let n = t.readUint32(),
         i = t.readFloat64(),
         s = new k(t.readBytes(i));
@@ -2421,7 +2421,7 @@ var Bt = class {
         a = new q(this, s, e.version),
         d = t.readFloat64(),
         c = new k(t.readBytes(d));
-      for (; !c.endOfFile(); ) {
+      for (; !c.endOfFile();) {
         let l = c.readUint32(),
           u = c.readFloat64(),
           f = new k(c.readBytes(u));
@@ -2603,7 +2603,7 @@ var Et = class {
         a = new q(this, s, e.version),
         d = t.readFloat64(),
         c = new k(t.readBytes(d));
-      for (; !c.endOfFile(); ) {
+      for (; !c.endOfFile();) {
         let l = c.readUint32(),
           u = c.readFloat64(),
           f = new k(c.readBytes(u));
@@ -3388,7 +3388,7 @@ var je = class {
 function cn(o) {
   let e = [],
     t = o.base;
-  for (; t; ) {
+  for (; t;) {
     let r = Ht(t);
     (e.push(r), (t = t.base));
   }
@@ -3578,7 +3578,7 @@ function G(o, e) {
   if (e === T) return;
   if (o.getNodeData(e)) return e;
   let t = e.indexOf(".");
-  for (; t >= 0; ) {
+  for (; t >= 0;) {
     let r = e.slice(0, t);
     if (o.getNodeData(r)) return r;
     t = e.indexOf(".", t + 1);
@@ -3936,7 +3936,7 @@ var Ze = class o {
   emitPreWindowAnchor(e) {
     let t = this.source.getHierarchy(),
       r = t.getOwnParentBySeq(e.id, e.seq, !1);
-    for (; r && r.index >= this.windowStartIdx; ) r = t.getOwnParentBySeq(r.id, r.seq, !1);
+    for (; r && r.index >= this.windowStartIdx;) r = t.getOwnParentBySeq(r.id, r.seq, !1);
     if (!r || this.emittedParentIdRowIndexes.has(r.index)) return;
     let n = this.source.branchData.getRow(r.index);
     this.emitParentIdRow(n, r.index);
@@ -3948,7 +3948,7 @@ var Ze = class o {
     this.addParentOverride(e, n);
     let i = this.source.getHierarchy(),
       s = i.getOwnParentBySeq(e.id, e.seq, !1);
-    for (; s && N(s.value) !== N(n.parentTo); ) s = i.getOwnParentBySeq(s.id, s.seq, !1);
+    for (; s && N(s.value) !== N(n.parentTo);) s = i.getOwnParentBySeq(s.id, s.seq, !1);
     if (!s || this.emittedParentIdRowIndexes.has(s.index)) return;
     let a = this.source.branchData.getRow(s.index);
     this.emitParentIdRow(a, s.index);
@@ -4024,7 +4024,7 @@ function yn(o, e) {
   if (o.base.getParentId(e) === m) return e;
   let t = new Set([e]),
     r = o.getParentId(e);
-  for (; r !== void 0 && r !== m; ) {
+  for (; r !== void 0 && r !== m;) {
     if (t.has(r)) return;
     if ((t.add(r), o.getParentId(r) === m)) return r;
     r = o.getParentId(r);
@@ -4988,7 +4988,7 @@ var lo = 1e3,
       if (!r && this.getOwnNodeData(e)?.parentIdHistory?.length) return;
       let n = this.base,
         i;
-      for (; !i && n; ) {
+      for (; !i && n;) {
         let s = n.getOwnParentBySeq(e, n.store.seq, !0);
         (s?.value !== b && (i = s), (n = n.base));
       }
@@ -5452,7 +5452,7 @@ var ot = class {
       r = [],
       n = new Set(),
       i = [e];
-    for (; i.length > 0; ) {
+    for (; i.length > 0;) {
       let s = i.pop();
       if (n.has(s)) return;
       n.add(s);
@@ -5534,7 +5534,7 @@ var ot = class {
 var st = -1;
 function ke(o, e) {
   let t = o.length;
-  for (; t < e; ) t <<= 1;
+  for (; t < e;) t <<= 1;
   let r = new Uint32Array(t);
   return (r.set(o), r);
 }
@@ -5951,14 +5951,14 @@ function Sn(o, e) {
   let i = [],
     s = 0,
     a = 0;
-  for (; s < t && a < r; )
+  for (; s < t && a < r;)
     o[s] === e[a]
       ? ((s += 1), (a += 1))
       : n[s + 1][a] > n[s][a + 1]
         ? (i.push({ operation: "delete", index: s, value: o[s] }), (s += 1))
         : (i.push({ operation: "insert", index: a, value: e[a] }), (a += 1));
-  for (; s < t; ) (i.push({ operation: "delete", index: s, value: o[s] }), (s += 1));
-  for (; a < r; ) (i.push({ operation: "insert", index: a, value: e[a] }), (a += 1));
+  for (; s < t;) (i.push({ operation: "delete", index: s, value: o[s] }), (s += 1));
+  for (; a < r;) (i.push({ operation: "insert", index: a, value: e[a] }), (a += 1));
   return i;
 }
 function Cn(o, e) {
@@ -5969,7 +5969,7 @@ function Cn(o, e) {
   let r = t,
     n = t.baseId,
     i = new Set();
-  for (; n !== e; ) {
+  for (; n !== e;) {
     if (n === I || i.has(n)) return t.baseId;
     i.add(n);
     let s = vn(o, n);
@@ -7044,7 +7044,7 @@ var qo = ["__class", "isMaster", "isFormContainer", "replicaInfo", "master", "da
           let u = s.get(l);
           u !== m && (a[c] = this.getReferenceValue(u));
         };
-      for (; r.length > 0; ) {
+      for (; r.length > 0;) {
         let { id: c, depth: l, parent: u } = r.pop();
         if (i.has(c)) continue;
         i.add(c);
@@ -7197,7 +7197,7 @@ var qo = ["__class", "isMaster", "isFormContainer", "replicaInfo", "master", "da
     }
     get mainStore() {
       let e = this;
-      for (; e.base; ) e = e.base;
+      for (; e.base;) e = e.base;
       return (h(e.branchId === I, "Expected root store to be the main branch"), e);
     }
     *childBranchIds() {
@@ -7392,4 +7392,4 @@ export {
   ut as s,
   Xu as t,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-XGYHMCIU.mjs.map
+//# sourceMappingURL=chunk-XGYHMCIU.mjs.map

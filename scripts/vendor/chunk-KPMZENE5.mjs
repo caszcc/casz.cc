@@ -1,4 +1,4 @@
-import { a as b } from "./chunk-YRQ7G4QH.mjs";
+import { a as b } from "chunk-YRQ7G4QH.mjs";
 var y,
   M = !1;
 function q(t) {
@@ -226,7 +226,7 @@ var h = {},
   W = 1e3;
 function u(t, e, r) {
   let n = new d(t, e, r);
-  for (l.push(n), x?.(n); l.length > W; ) l.shift();
+  for (l.push(n), x?.(n); l.length > W;) l.shift();
   return n;
 }
 function _(t) {
@@ -411,4 +411,4 @@ export {
   re as l,
   z as m,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-KPMZENE5.mjs.map
+//# sourceMappingURL=chunk-KPMZENE5.mjs.map

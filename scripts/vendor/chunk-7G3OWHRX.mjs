@@ -1,8 +1,8 @@
-import { a as o } from "./chunk-VWL7KAXC.mjs";
-import { c as r } from "./chunk-EKYJNLIX.mjs";
-import { b as e } from "./chunk-VZJCJAEC.mjs";
-import { a as s } from "./chunk-JTCAKYEM.mjs";
-import { e as i } from "./chunk-WLHSDIGQ.mjs";
+import { a as o } from "chunk-VWL7KAXC.mjs";
+import { c as r } from "chunk-EKYJNLIX.mjs";
+import { b as e } from "chunk-VZJCJAEC.mjs";
+import { a as s } from "chunk-JTCAKYEM.mjs";
+import { e as i } from "chunk-WLHSDIGQ.mjs";
 var n = "cq2i6r2",
   p = "o199fue7",
   c = "o16gpm6";
@@ -26,4 +26,4 @@ function y({ avatar: l, displayName: m, organization: a }) {
   });
 }
 export { y as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-7G3OWHRX.mjs.map
+//# sourceMappingURL=chunk-7G3OWHRX.mjs.map

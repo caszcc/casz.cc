@@ -1,4 +1,4 @@
-import { e as r } from "./chunk-LA34HORX.mjs";
+import { e as r } from "chunk-LA34HORX.mjs";
 function e(o) {
   return o === 2 || o === 0;
 }
@@ -7,4 +7,4 @@ function n(o) {
   return r(o) && t[o] === !0;
 }
 export { e as a, n as b };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-7IYYS7RD.mjs.map
+//# sourceMappingURL=chunk-7IYYS7RD.mjs.map

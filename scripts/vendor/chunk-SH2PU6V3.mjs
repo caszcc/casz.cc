@@ -1,7 +1,7 @@
-import { b as Y } from "./chunk-VZJCJAEC.mjs";
-import { a as r } from "./chunk-JTCAKYEM.mjs";
-import { a as j } from "./chunk-W774OHJB.mjs";
-import { e as t } from "./chunk-WLHSDIGQ.mjs";
+import { b as Y } from "chunk-VZJCJAEC.mjs";
+import { a as r } from "chunk-JTCAKYEM.mjs";
+import { a as j } from "chunk-W774OHJB.mjs";
+import { e as t } from "chunk-WLHSDIGQ.mjs";
 var p = t(r());
 function o1({ foreground: o = "white", background: e = "currentColor" }) {
   return (0, p.jsxs)("svg", {
@@ -1281,4 +1281,4 @@ export {
   G5 as S,
   E5 as T,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-SH2PU6V3.mjs.map
+//# sourceMappingURL=chunk-SH2PU6V3.mjs.map

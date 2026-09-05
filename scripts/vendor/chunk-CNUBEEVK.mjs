@@ -91,4 +91,4 @@ export {
   G as Q,
   K as R,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-CNUBEEVK.mjs.map
+//# sourceMappingURL=chunk-CNUBEEVK.mjs.map

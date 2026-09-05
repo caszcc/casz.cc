@@ -168,4 +168,4 @@ export {
   U as r,
   Y as s,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-OHYXMHQF.mjs.map
+//# sourceMappingURL=chunk-OHYXMHQF.mjs.map

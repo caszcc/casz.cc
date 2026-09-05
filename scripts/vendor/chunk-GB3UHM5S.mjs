@@ -1,6 +1,6 @@
-import { a as f } from "./chunk-QFU6OGL3.mjs";
-import { a as h } from "./chunk-JTCAKYEM.mjs";
-import { e as n } from "./chunk-WLHSDIGQ.mjs";
+import { a as f } from "chunk-QFU6OGL3.mjs";
+import { a as h } from "chunk-JTCAKYEM.mjs";
+import { e as n } from "chunk-WLHSDIGQ.mjs";
 var r = "fpc582v",
   m = "f1thtg1z";
 var l = n(h());
@@ -22,4 +22,4 @@ function P(e) {
   return (0, l.jsx)("div", { className: f(e.flex ? r : m), style: c(e) });
 }
 export { P as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-GB3UHM5S.mjs.map
+//# sourceMappingURL=chunk-GB3UHM5S.mjs.map

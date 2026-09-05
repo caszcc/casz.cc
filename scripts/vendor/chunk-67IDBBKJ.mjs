@@ -6,4 +6,4 @@ function i(n) {
   e = n;
 }
 export { t as a, i as b };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-67IDBBKJ.mjs.map
+//# sourceMappingURL=chunk-67IDBBKJ.mjs.map

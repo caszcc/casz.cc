@@ -8,7 +8,7 @@ import {
   m as C,
   n as k,
   s as A,
-} from "./chunk-KYPY4QS7.mjs";
+} from "chunk-KYPY4QS7.mjs";
 var S = ["ol", 0],
   R = ["ul", 0],
   v = ["li", 0],
@@ -215,4 +215,4 @@ function X(l) {
   };
 }
 export { z as a, V as b, B as c, q as d, H as e, _ as f, F as g, Q as h, U as i, X as j };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-YE4QPCYK.mjs.map
+//# sourceMappingURL=chunk-YE4QPCYK.mjs.map

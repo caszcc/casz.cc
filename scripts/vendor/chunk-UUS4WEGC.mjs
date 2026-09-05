@@ -1,6 +1,6 @@
-import { a as te } from "./chunk-JTCAKYEM.mjs";
-import { a as E } from "./chunk-W774OHJB.mjs";
-import { a as oc, d as Km, e as A } from "./chunk-WLHSDIGQ.mjs";
+import { a as te } from "chunk-JTCAKYEM.mjs";
+import { a as E } from "chunk-W774OHJB.mjs";
+import { a as oc, d as Km, e as A } from "chunk-WLHSDIGQ.mjs";
 function Ze(t, e) {
   t.indexOf(e) === -1 && t.push(e);
 }
@@ -584,7 +584,7 @@ function so(t) {
   let e = 0,
     o = 50,
     r = t.next(e);
-  for (; !r.done && e < 2e4; ) ((e += o), (r = t.next(e)));
+  for (; !r.done && e < 2e4;) ((e += o), (r = t.next(e)));
   return e >= 2e4 ? 1 / 0 : e;
 }
 function Jr(t, e = 100, o) {
@@ -2506,7 +2506,7 @@ var nd = new Set(["auto", "none", "0"]);
 function Uc(t, e, o) {
   let r = 0,
     n;
-  for (; r < t.length && !n; ) {
+  for (; r < t.length && !n;) {
     let s = t[r];
     (typeof s == "string" && !nd.has(s) && pe(s).values.length && (n = t[r]), r++);
   }
@@ -5251,16 +5251,14 @@ function Un({
         this.isTransformDirty || (this.isTransformDirty = a.isTransformDirty),
         this.isSharedProjectionDirty || (this.isSharedProjectionDirty = a.isSharedProjectionDirty));
       let l = !!this.resumingFrom || this !== a;
-      if (
-        !(
-          i ||
-          (l && this.isSharedProjectionDirty) ||
-          this.isProjectionDirty ||
-          this.parent?.isProjectionDirty ||
-          this.attemptToResolveRelativeTarget ||
-          this.root.updateBlockedByResize
-        )
-      )
+      if (!(
+        i ||
+        (l && this.isSharedProjectionDirty) ||
+        this.isProjectionDirty ||
+        this.parent?.isProjectionDirty ||
+        this.attemptToResolveRelativeTarget ||
+        this.root.updateBlockedByResize
+      ))
         return;
       let { layout: u, layoutId: f } = this.options;
       if (!this.layout || !(u || f)) return;
@@ -5850,7 +5848,7 @@ function Mh() {
 }
 function Eh(t) {
   let e = t.parentElement;
-  for (; e; ) {
+  for (; e;) {
     let o = Hi.get(e);
     if (o && o.instance) return o;
     e = e.parentElement;
@@ -6648,7 +6646,7 @@ var xf = new Set(["auto", "scroll"]),
     }
     startScrollTracking(e) {
       let o = e.parentElement;
-      for (; o; ) {
+      for (; o;) {
         let r = getComputedStyle(o);
         ((xf.has(r.overflowX) || xf.has(r.overflowY)) &&
           this.scrollPositions.set(o, { x: o.scrollLeft, y: o.scrollTop }),
@@ -6706,7 +6704,7 @@ function Yh(t, e) {
   let o = t.length - 1,
     r = null,
     n = wf(t);
-  for (; o >= 0 && ((r = t[o]), !(n.timestamp - r.timestamp > N(e))); ) o--;
+  for (; o >= 0 && ((r = t[o]), !(n.timestamp - r.timestamp > N(e)));) o--;
   if (!r) return { x: 0, y: 0 };
   r === t[0] && t.length > 2 && n.timestamp - r.timestamp > N(e) * 2 && (r = t[1]);
   let s = ht(n.timestamp - r.timestamp);
@@ -7790,7 +7788,7 @@ function Qf(t, e, o) {
 function tm(t, e) {
   let o = { x: 0, y: 0 },
     r = t;
-  for (; r && r !== e; )
+  for (; r && r !== e;)
     if (Zt(r)) ((o.x += r.offsetLeft), (o.y += r.offsetTop), (r = r.offsetParent));
     else if (r.tagName === "svg") {
       let n = r.getBoundingClientRect();
@@ -7802,7 +7800,7 @@ function tm(t, e) {
       ((o.x += n), (o.y += s));
       let i = null,
         a = r.parentNode;
-      for (; !i; ) (a.tagName === "svg" && (i = a), (a = r.parentNode));
+      for (; !i;) (a.tagName === "svg" && (i = a), (a = r.parentNode));
       r = i;
     } else break;
   return o;
@@ -7885,7 +7883,7 @@ function om(t, e, o) {
 function wg(t, e = t, o) {
   if (((o.x.targetOffset = 0), (o.y.targetOffset = 0), e !== t)) {
     let r = e;
-    for (; r && r !== t; )
+    for (; r && r !== t;)
       ((o.x.targetOffset += r.offsetLeft), (o.y.targetOffset += r.offsetTop), (r = r.offsetParent));
   }
   ((o.x.targetLength = e === t ? e.scrollWidth : e.clientWidth),
@@ -9157,7 +9155,7 @@ function Sy(t, e) {
 }
 function tc(t, e) {
   let o = t?.parentElement;
-  for (; o; ) {
+  for (; o;) {
     if (Sy(o, e)) return o;
     o = o.parentElement;
   }
@@ -9641,4 +9639,4 @@ export {
   xy as bg,
   $m as cg,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-UUS4WEGC.mjs.map
+//# sourceMappingURL=chunk-UUS4WEGC.mjs.map

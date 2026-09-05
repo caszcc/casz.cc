@@ -8,4 +8,4 @@ function e(n) {
   return typeof n == "function";
 }
 export { u as a, t as b, e as c };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-OGQCKB6U.mjs.map
+//# sourceMappingURL=chunk-OGQCKB6U.mjs.map

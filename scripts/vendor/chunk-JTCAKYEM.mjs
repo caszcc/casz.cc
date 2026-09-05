@@ -1,5 +1,5 @@
-import { a as c } from "./chunk-W774OHJB.mjs";
-import { c as _ } from "./chunk-WLHSDIGQ.mjs";
+import { a as c } from "chunk-W774OHJB.mjs";
+import { c as _ } from "chunk-WLHSDIGQ.mjs";
 var l = _((s) => {
   "use strict";
   var y = c(),
@@ -42,4 +42,4 @@ react/cjs/react-jsx-runtime.production.min.js:
    * LICENSE file in the root directory of this source tree.
    *)
 */
-//# sourceMappingURL=https://app.framerstatic.com/chunk-JTCAKYEM.mjs.map
+//# sourceMappingURL=chunk-JTCAKYEM.mjs.map

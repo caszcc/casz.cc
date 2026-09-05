@@ -1,5 +1,5 @@
-import { a as r } from "./chunk-JTCAKYEM.mjs";
-import { e as o } from "./chunk-WLHSDIGQ.mjs";
+import { a as r } from "chunk-JTCAKYEM.mjs";
+import { e as o } from "chunk-WLHSDIGQ.mjs";
 var e = o(r());
 function a() {
   return (0, e.jsx)("svg", {
@@ -39,4 +39,4 @@ function i({ fill: n = "currentColor", ...s }) {
   });
 }
 export { a, i as b };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-J3GWXB6M.mjs.map
+//# sourceMappingURL=chunk-J3GWXB6M.mjs.map

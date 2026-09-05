@@ -1,5 +1,5 @@
-import { a as c } from "./chunk-W774OHJB.mjs";
-import { e as s } from "./chunk-WLHSDIGQ.mjs";
+import { a as c } from "chunk-W774OHJB.mjs";
+import { e as s } from "chunk-WLHSDIGQ.mjs";
 var e = s(c(), 1);
 function a(t) {
   let r = (0, e.useMemo)(() => {
@@ -15,4 +15,4 @@ function a(t) {
   return (0, e.useSyncExternalStore)(r.subscribe, r.getCurrentValue);
 }
 export { a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-4UPUMYFX.mjs.map
+//# sourceMappingURL=chunk-4UPUMYFX.mjs.map

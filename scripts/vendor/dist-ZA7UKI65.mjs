@@ -28,9 +28,9 @@ import {
   x,
   y,
   z,
-} from "./chunk-MTT6DWBN.mjs";
-import "./chunk-KYPY4QS7.mjs";
-import "./chunk-WLHSDIGQ.mjs";
+} from "chunk-MTT6DWBN.mjs";
+import "chunk-KYPY4QS7.mjs";
+import "chunk-WLHSDIGQ.mjs";
 export {
   y as autoJoin,
   C as baseKeymap,
@@ -62,4 +62,4 @@ export {
   x as toggleMark,
   v as wrapIn,
 };
-//# sourceMappingURL=https://app.framerstatic.com/dist-ZA7UKI65.mjs.map
+//# sourceMappingURL=dist-ZA7UKI65.mjs.map

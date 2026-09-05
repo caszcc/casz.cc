@@ -1,4 +1,4 @@
-import { b as n } from "./chunk-4BL4NTEI.mjs";
+import { b as n } from "chunk-4BL4NTEI.mjs";
 function c(t) {
   return new n({
     isTemporary: !0,
@@ -10,4 +10,4 @@ function c(t) {
   });
 }
 export { c as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-W4HX7OP5.mjs.map
+//# sourceMappingURL=chunk-W4HX7OP5.mjs.map

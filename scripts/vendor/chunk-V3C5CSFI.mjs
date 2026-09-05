@@ -19,4 +19,4 @@ function a(i, u) {
   );
 }
 export { a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-V3C5CSFI.mjs.map
+//# sourceMappingURL=chunk-V3C5CSFI.mjs.map

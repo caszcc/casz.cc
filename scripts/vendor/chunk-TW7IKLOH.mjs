@@ -1,6 +1,6 @@
-import { a as l } from "./chunk-JTCAKYEM.mjs";
-import { a as c } from "./chunk-W774OHJB.mjs";
-import { e as o } from "./chunk-WLHSDIGQ.mjs";
+import { a as l } from "chunk-JTCAKYEM.mjs";
+import { a as c } from "chunk-W774OHJB.mjs";
+import { e as o } from "chunk-WLHSDIGQ.mjs";
 var a = o(c(), 1),
   i = o(l(), 1),
   n = "local-module:layoutTemplate/preview-placeholder:default";
@@ -25,4 +25,4 @@ function x(e) {
   return t;
 }
 export { y as a, p as b, s as c, m as d, x as e };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-TW7IKLOH.mjs.map
+//# sourceMappingURL=chunk-TW7IKLOH.mjs.map

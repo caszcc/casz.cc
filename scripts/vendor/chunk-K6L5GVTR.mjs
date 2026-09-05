@@ -8,4 +8,4 @@ function o(r, n = { referrer: !0 }) {
     e.remove());
 }
 export { o as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-K6L5GVTR.mjs.map
+//# sourceMappingURL=chunk-K6L5GVTR.mjs.map

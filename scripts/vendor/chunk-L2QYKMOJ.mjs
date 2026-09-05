@@ -16,11 +16,11 @@ var k = function (n, o, t, e, r) {
 function C(n) {
   let o = [],
     t = -1;
-  for (; ++t < n.length; ) o[t] = h(n[t]);
+  for (; ++t < n.length;) o[t] = h(n[t]);
   return g(e);
   function e(...r) {
     let i = -1;
-    for (; ++i < o.length; ) if (o[i].apply(this, r)) return !0;
+    for (; ++i < o.length;) if (o[i].apply(this, r)) return !0;
     return !1;
   }
 }
@@ -147,7 +147,7 @@ function en(n) {
     e = t.exec(o),
     r = 0,
     i = [];
-  for (; e; )
+  for (; e;)
     (i.push(S(o.slice(r, e.index), r > 0, !0), e[0]), (r = e.index + e[0].length), (e = t.exec(o)));
   return (i.push(S(o.slice(r), r > 0, !1)), i.join(""));
 }
@@ -156,13 +156,13 @@ function S(n, o, t) {
     r = n.length;
   if (o) {
     let i = n.codePointAt(e);
-    for (; i === 9 || i === 32; ) (e++, (i = n.codePointAt(e)));
+    for (; i === 9 || i === 32;) (e++, (i = n.codePointAt(e)));
   }
   if (t) {
     let i = n.codePointAt(r - 1);
-    for (; i === 9 || i === 32; ) (r--, (i = n.codePointAt(r - 1)));
+    for (; i === 9 || i === 32;) (r--, (i = n.codePointAt(r - 1)));
   }
   return r > e ? n.slice(e, r) : "";
 }
 export { en as a, k as b, h as c, w as d, m as e, E as f, I as g, U as h, v as i, X as j };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-L2QYKMOJ.mjs.map
+//# sourceMappingURL=chunk-L2QYKMOJ.mjs.map

@@ -1,6 +1,6 @@
-import { a as te, c as ie, e as Be, f as Ct, i as Ot, j as wt } from "./chunk-LTYGJUPU.mjs";
-import { r as Dt, s as kt, y as qn } from "./chunk-VHFKZWVR.mjs";
-import { a as Wn, b as At, c as Yn, h as zn } from "./chunk-KPMZENE5.mjs";
+import { a as te, c as ie, e as Be, f as Ct, i as Ot, j as wt } from "chunk-LTYGJUPU.mjs";
+import { r as Dt, s as kt, y as qn } from "chunk-VHFKZWVR.mjs";
+import { a as Wn, b as At, c as Yn, h as zn } from "chunk-KPMZENE5.mjs";
 var Pt = class {
     get log() {
       return te.log.extend("LocalChannel");
@@ -121,7 +121,7 @@ var Kn = class {
     read = async (t) => {
       let n = this[Symbol.asyncIterator](),
         r = await n.next();
-      for (; !r.done; ) (t(r.value), (r = await n.next()));
+      for (; !r.done;) (t(r.value), (r = await n.next()));
     };
     cancel = async () => {
       await this.return();
@@ -4060,4 +4060,4 @@ export {
   Og as n,
   wg as o,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-NKL3YJZC.mjs.map
+//# sourceMappingURL=chunk-NKL3YJZC.mjs.map

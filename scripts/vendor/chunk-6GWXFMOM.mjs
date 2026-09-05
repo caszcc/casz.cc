@@ -1,5 +1,5 @@
-import { b as r } from "./chunk-OAVZ6FLB.mjs";
-import { c as e } from "./chunk-4JY5UMT2.mjs";
+import { b as r } from "chunk-OAVZ6FLB.mjs";
+import { c as e } from "chunk-4JY5UMT2.mjs";
 function n(a) {
   let t = r();
   switch (a) {
@@ -22,4 +22,4 @@ function s(a) {
   }
 }
 export { n as a, s as b };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-6GWXFMOM.mjs.map
+//# sourceMappingURL=chunk-6GWXFMOM.mjs.map

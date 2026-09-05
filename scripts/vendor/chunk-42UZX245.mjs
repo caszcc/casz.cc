@@ -1,9 +1,9 @@
-import { a as e } from "./chunk-W774OHJB.mjs";
-import { e as u } from "./chunk-WLHSDIGQ.mjs";
+import { a as e } from "chunk-W774OHJB.mjs";
+import { e as u } from "chunk-WLHSDIGQ.mjs";
 var r = u(e(), 1);
 function l(t) {
   let n = (0, r.useRef)(null);
   return (n.current === null && (n.current = t()), n.current);
 }
 export { l as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-42UZX245.mjs.map
+//# sourceMappingURL=chunk-42UZX245.mjs.map

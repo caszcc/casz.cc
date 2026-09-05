@@ -1,4 +1,4 @@
-import { a as t } from "./chunk-QFU6OGL3.mjs";
+import { a as t } from "chunk-QFU6OGL3.mjs";
 var a = "p1xzm6jr";
 var p = 4,
   m = "s1vo07bb",
@@ -43,4 +43,4 @@ export {
   A as t,
   B as u,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-R6Q53CPR.mjs.map
+//# sourceMappingURL=chunk-R6Q53CPR.mjs.map

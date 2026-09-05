@@ -26,4 +26,4 @@ export {
   s as l,
   c as m,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-Q3WX3LWW.mjs.map
+//# sourceMappingURL=chunk-Q3WX3LWW.mjs.map

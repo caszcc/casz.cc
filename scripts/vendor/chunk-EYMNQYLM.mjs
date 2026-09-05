@@ -1,4 +1,4 @@
-import { c as P } from "./chunk-WLHSDIGQ.mjs";
+import { c as P } from "chunk-WLHSDIGQ.mjs";
 var A = P((r) => {
   "use strict";
   var t = typeof Symbol == "function" && Symbol.for,
@@ -198,4 +198,4 @@ react-is/cjs/react-is.production.min.js:
    * LICENSE file in the root directory of this source tree.
    *)
 */
-//# sourceMappingURL=https://app.framerstatic.com/chunk-EYMNQYLM.mjs.map
+//# sourceMappingURL=chunk-EYMNQYLM.mjs.map

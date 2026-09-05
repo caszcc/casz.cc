@@ -14,7 +14,7 @@ import {
   u as V,
   v as b,
   w as $,
-} from "./chunk-KYPY4QS7.mjs";
+} from "chunk-KYPY4QS7.mjs";
 var J = (e, t) => (e.selection.empty ? !1 : (t && t(e.tr.deleteSelection().scrollIntoView()), !0));
 function _(e, t) {
   let { $cursor: n } = e.selection;
@@ -367,7 +367,7 @@ function U(e, t, n, r) {
   if (u && B(o, "start", !0) && B(l, "end")) {
     let c = l,
       p = [];
-    for (; p.push(c), !c.isTextblock; ) c = c.lastChild;
+    for (; p.push(c), !c.isTextblock;) c = c.lastChild;
     let k = o,
       g = 1;
     for (; !k.isTextblock; k = k.firstChild) g++;
@@ -398,7 +398,7 @@ function L(e) {
     let r = t.selection,
       l = e < 0 ? r.$from : r.$to,
       o = l.depth;
-    for (; l.node(o).isInline; ) {
+    for (; l.node(o).isInline;) {
       if (!o) return !1;
       o--;
     }
@@ -641,4 +641,4 @@ export {
   Q as B,
   Ve as C,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-MTT6DWBN.mjs.map
+//# sourceMappingURL=chunk-MTT6DWBN.mjs.map

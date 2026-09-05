@@ -1,4 +1,4 @@
-import { b as e } from "./chunk-ISW56VHA.mjs";
+import { b as e } from "chunk-ISW56VHA.mjs";
 var a = {
     monospace: '"Input Mono", Menlo, monospace',
     sansSerif:
@@ -17,4 +17,4 @@ var a = {
   o = { base: 500, baseActive: 500, heading: 600, headingBold: 700, headingExtraBold: 800 };
 var n = { family: e(a, "font-family"), size: e(s, "font-size"), weight: e(o, "font-weight") };
 export { a, s as b, o as c, n as d };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-OBPE7T77.mjs.map
+//# sourceMappingURL=chunk-OBPE7T77.mjs.map

@@ -1,4 +1,4 @@
-import { a as y, c as x } from "./chunk-WLHSDIGQ.mjs";
+import { a as y, c as x } from "chunk-WLHSDIGQ.mjs";
 var k = x((m, h) => {
   "use strict";
   (function (r, o) {
@@ -42,7 +42,7 @@ var k = x((m, h) => {
     }
     function d(e, i, t) {
       if (!e.length || $.hasOwnProperty(e)) return i;
-      for (var n = t.length; n--; ) {
+      for (var n = t.length; n--;) {
         var s = t[n];
         if (s[0].test(i)) return w(i, s);
       }
@@ -346,4 +346,4 @@ function U(r) {
   return r === void 0;
 }
 export { C as a, z as b, P as c, L as d, j as e, q as f, U as g, k as h };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-YHM4FVFG.mjs.map
+//# sourceMappingURL=chunk-YHM4FVFG.mjs.map

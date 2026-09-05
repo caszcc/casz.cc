@@ -30,4 +30,4 @@ function l(t) {
   return t.target instanceof HTMLElement && t.target.hasAttribute(a);
 }
 export { i as a, l as b };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-XNZRDAH2.mjs.map
+//# sourceMappingURL=chunk-XNZRDAH2.mjs.map

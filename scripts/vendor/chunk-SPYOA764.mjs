@@ -23,4 +23,4 @@ function m(t, e) {
   return i;
 }
 export { p as a, m as b };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-SPYOA764.mjs.map
+//# sourceMappingURL=chunk-SPYOA764.mjs.map

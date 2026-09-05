@@ -1,4 +1,4 @@
-import { a as t, b as e } from "./chunk-A3ZGY5ZV.mjs";
+import { a as t, b as e } from "chunk-A3ZGY5ZV.mjs";
 var a = e.blue60,
   k = e.blue70,
   n = "color(display-p3 0 0.6 1 / 0.06)",
@@ -880,4 +880,4 @@ var a = e.blue60,
     borderSweepOverlayBorderAlpha: "40%",
   };
 export { A as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-2A2IXQEA.mjs.map
+//# sourceMappingURL=chunk-2A2IXQEA.mjs.map

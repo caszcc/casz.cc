@@ -1,4 +1,4 @@
-import { h as q } from "./chunk-KPMZENE5.mjs";
+import { h as q } from "chunk-KPMZENE5.mjs";
 var y;
 ((e) => (e.log = q("\u{1F4A9} fallback-logger-please-reassign:services")))((y ||= {}));
 ((i) => {
@@ -400,7 +400,7 @@ var P = class {
       if (this.latestDiscoveryInfo) return this.latestDiscoveryInfo;
       let r = e / (t + 1),
         i = 0;
-      for (; i <= t; )
+      for (; i <= t;)
         try {
           await this.postRequest(S.serviceId, { method: S.method }, r);
           break;
@@ -870,4 +870,4 @@ var U;
   i.streamMethodTemplate = r;
 })((U ||= {}));
 export { y as a, T as b, d as c, X as d, M as e, x as f, U as g, C as h, z as i, H as j };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-LTYGJUPU.mjs.map
+//# sourceMappingURL=chunk-LTYGJUPU.mjs.map

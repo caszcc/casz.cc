@@ -1,6 +1,6 @@
-import { a, b, c, d, e, f, g, h, i, j, k, l } from "./chunk-EDICM4ZE.mjs";
-import "./chunk-KYPY4QS7.mjs";
-import "./chunk-WLHSDIGQ.mjs";
+import { a, b, c, d, e, f, g, h, i, j, k, l } from "chunk-EDICM4ZE.mjs";
+import "chunk-KYPY4QS7.mjs";
+import "chunk-WLHSDIGQ.mjs";
 export {
   a as InputRule,
   g as closeDoubleQuote,
@@ -15,4 +15,4 @@ export {
   c as undoInputRule,
   k as wrappingInputRule,
 };
-//# sourceMappingURL=https://app.framerstatic.com/dist-QOOLBRL4.mjs.map
+//# sourceMappingURL=dist-QOOLBRL4.mjs.map

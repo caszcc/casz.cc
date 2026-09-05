@@ -1,4 +1,4 @@
-import { d as t } from "./chunk-VHFKZWVR.mjs";
+import { d as t } from "chunk-VHFKZWVR.mjs";
 var s = "Shift+F";
 function a(o) {
   return o in e;
@@ -162,4 +162,4 @@ var e = {
     return (l?.platform ?? (t() ? "mac" : "windows")) === "windows" ? (i ?? n) : n;
   };
 export { s as a, a as b, m as c, e as d, c as e, r as f, d as g };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-5Y36GTP3.mjs.map
+//# sourceMappingURL=chunk-5Y36GTP3.mjs.map

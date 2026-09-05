@@ -1,4 +1,4 @@
-import { l as h, n as m, y as x } from "./chunk-KYPY4QS7.mjs";
+import { l as h, n as m, y as x } from "chunk-KYPY4QS7.mjs";
 var c = class {
   constructor(l, e, n = {}) {
     ((this.match = l),
@@ -134,4 +134,4 @@ export {
   S as k,
   T as l,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-EDICM4ZE.mjs.map
+//# sourceMappingURL=chunk-EDICM4ZE.mjs.map

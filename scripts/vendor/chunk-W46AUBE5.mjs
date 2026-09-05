@@ -1,4 +1,4 @@
-import { h as r, i as a, j as i } from "./chunk-EERSFQYH.mjs";
+import { h as r, i as a, j as i } from "chunk-EERSFQYH.mjs";
 var t = {
   demoAnalytics: "off",
   disableAIAgentMessageRedaction: "off",
@@ -38,4 +38,4 @@ function f() {
   return o;
 }
 export { t as a, s as b, u as c, g as d };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-W46AUBE5.mjs.map
+//# sourceMappingURL=chunk-W46AUBE5.mjs.map

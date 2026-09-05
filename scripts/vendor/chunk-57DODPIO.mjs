@@ -1,4 +1,4 @@
-import { b as s } from "./chunk-4JY5UMT2.mjs";
+import { b as s } from "chunk-4JY5UMT2.mjs";
 var t = class {
   constructor(e) {
     this.environment = e;
@@ -48,4 +48,4 @@ var t = class {
   }
 };
 export { t as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-57DODPIO.mjs.map
+//# sourceMappingURL=chunk-57DODPIO.mjs.map

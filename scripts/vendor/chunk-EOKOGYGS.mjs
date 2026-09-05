@@ -1,4 +1,4 @@
-import { Ba as f, ta as s } from "./chunk-CXXFSPZR.mjs";
+import { Ba as f, ta as s } from "chunk-CXXFSPZR.mjs";
 function p(e, n) {
   let r = "Unknown error";
   (n !== void 0 && (r = n instanceof Error ? n.message : "" + n),
@@ -27,4 +27,4 @@ function a(e) {
   return e.startsWith("./") ? e.replace("./", "") : e;
 }
 export { p as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-EOKOGYGS.mjs.map
+//# sourceMappingURL=chunk-EOKOGYGS.mjs.map

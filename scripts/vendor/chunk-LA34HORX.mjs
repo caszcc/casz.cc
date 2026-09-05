@@ -92,4 +92,4 @@ export {
   N as v,
   T as w,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-LA34HORX.mjs.map
+//# sourceMappingURL=chunk-LA34HORX.mjs.map

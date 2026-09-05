@@ -17,4 +17,4 @@ function e() {
 }
 var i = e;
 export { e as a, i as b };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-FIJLBKPU.mjs.map
+//# sourceMappingURL=chunk-FIJLBKPU.mjs.map

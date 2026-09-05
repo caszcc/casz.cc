@@ -1,4 +1,4 @@
-import { b as r } from "./chunk-LA34HORX.mjs";
+import { b as r } from "chunk-LA34HORX.mjs";
 var p = null,
   g = "i-invalid",
   o = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
@@ -42,4 +42,4 @@ function w(n) {
   return u("id_" + n);
 }
 export { p as a, g as b, h as c, D as d, N as e, x as f, m as g, w as h };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-UYIYJ4FN.mjs.map
+//# sourceMappingURL=chunk-UYIYJ4FN.mjs.map

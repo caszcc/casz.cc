@@ -1,5 +1,5 @@
-import { l as n } from "./chunk-NKL3YJZC.mjs";
-import { h as l } from "./chunk-KPMZENE5.mjs";
+import { l as n } from "chunk-NKL3YJZC.mjs";
+import { h as l } from "chunk-KPMZENE5.mjs";
 var v = l("EngineChanges");
 var i = class {
   changes = new Set();
@@ -82,4 +82,4 @@ var i = class {
   }
 };
 export { i as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-L4FZMWCB.mjs.map
+//# sourceMappingURL=chunk-L4FZMWCB.mjs.map

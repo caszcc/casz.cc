@@ -1,13 +1,5 @@
-import {
-  a as zr,
-  c as Fr,
-  e as Pr,
-  g as Dr,
-  h as xt,
-  i as vr,
-  j as Or,
-} from "./chunk-L2QYKMOJ.mjs";
-import { c as cl, d as Lr, e as pl } from "./chunk-WLHSDIGQ.mjs";
+import { a as zr, c as Fr, e as Pr, g as Dr, h as xt, i as vr, j as Or } from "chunk-L2QYKMOJ.mjs";
+import { c as cl, d as Lr, e as pl } from "chunk-WLHSDIGQ.mjs";
 var qo = cl((Fk, Vo) => {
   "use strict";
   var Qt = Object.prototype.hasOwnProperty,
@@ -77,7 +69,7 @@ function en(e, n) {
   if (typeof n != "string") throw new TypeError("Expected character");
   let r = 0,
     o = t.indexOf(n);
-  for (; o !== -1; ) (r++, (o = t.indexOf(n, o + n.length)));
+  for (; o !== -1;) (r++, (o = t.indexOf(n, o + n.length)));
   return r;
 }
 var $ = Ce(/[A-Za-z]/),
@@ -114,11 +106,11 @@ function nn(e, n, t) {
   let o = Fr((t || {}).ignore || []),
     l = fl(n),
     i = -1;
-  for (; ++i < l.length; ) Dr(e, "text", a);
+  for (; ++i < l.length;) Dr(e, "text", a);
   function a(s, c) {
     let p = -1,
       h;
-    for (; ++p < c.length; ) {
+    for (; ++p < c.length;) {
       let f = c[p],
         d = h ? h.children : void 0;
       if (o(f, d ? d.indexOf(f) : void 0, h)) return;
@@ -136,7 +128,7 @@ function nn(e, n, t) {
       T = [];
     h.lastIndex = 0;
     let C = h.exec(s.value);
-    for (; C; ) {
+    for (; C;) {
       let R = C.index,
         M = { index: C.index, input: C.input, stack: [...c, s] },
         b = f(...C, M);
@@ -167,7 +159,7 @@ function fl(e) {
   if (!Array.isArray(e)) throw new TypeError("Expected find and replace tuple or list of tuples");
   let t = !e[0] || Array.isArray(e[0]) ? e : [e],
     r = -1;
-  for (; ++r < t.length; ) {
+  for (; ++r < t.length;) {
     let o = t[r];
     n.push([hl(o[0]), ml(o[1])]);
   }
@@ -286,7 +278,7 @@ function Il(e) {
     r = t.indexOf(")"),
     o = en(e, "("),
     l = en(e, ")");
-  for (; r !== -1 && o > l; )
+  for (; r !== -1 && o > l;)
     ((e += t.slice(0, r + 1)), (t = t.slice(r + 1)), (r = t.indexOf(")")), l++);
   return [e, t];
 }
@@ -451,11 +443,11 @@ function Vr(e, n) {
     u = [],
     s = 0,
     c = -1;
-  for (; ++c < e.length; ) {
+  for (; ++c < e.length;) {
     let S = [],
       A = [],
       k = -1;
-    for (e[c].length > s && (s = e[c].length); ++k < e[c].length; ) {
+    for (e[c].length > s && (s = e[c].length); ++k < e[c].length;) {
       let T = jl(e[c][k]);
       if (t.alignDelimiters !== !1) {
         let C = o(T);
@@ -466,15 +458,15 @@ function Vr(e, n) {
     ((i[c] = S), (a[c] = A));
   }
   let p = -1;
-  if (typeof r == "object" && "length" in r) for (; ++p < s; ) l[p] = Ur(r[p]);
+  if (typeof r == "object" && "length" in r) for (; ++p < s;) l[p] = Ur(r[p]);
   else {
     let S = Ur(r);
-    for (; ++p < s; ) l[p] = S;
+    for (; ++p < s;) l[p] = S;
   }
   p = -1;
   let h = [],
     f = [];
-  for (; ++p < s; ) {
+  for (; ++p < s;) {
     let S = l[p],
       A = "",
       k = "";
@@ -487,12 +479,12 @@ function Vr(e, n) {
   }
   (i.splice(1, 0, h), a.splice(1, 0, f), (c = -1));
   let d = [];
-  for (; ++c < i.length; ) {
+  for (; ++c < i.length;) {
     let S = i[c],
       A = a[c];
     p = -1;
     let k = [];
-    for (; ++p < s; ) {
+    for (; ++p < s;) {
       let T = S[p] || "",
         C = "",
         R = "";
@@ -534,7 +526,7 @@ var Hl = {}.hasOwnProperty;
 function hn(e, n) {
   let t = -1,
     r;
-  if (n.extensions) for (; ++t < n.extensions.length; ) hn(e, n.extensions[t]);
+  if (n.extensions) for (; ++t < n.extensions.length;) hn(e, n.extensions[t]);
   for (r in n)
     if (Hl.call(n, r))
       switch (r) {
@@ -579,12 +571,12 @@ function kt(e, n) {
 function Qr(e, n, t) {
   if ((typeof n == "string" && (n = [n]), !n || n.length === 0)) return t;
   let r = -1;
-  for (; ++r < n.length; ) if (e.includes(n[r])) return !0;
+  for (; ++r < n.length;) if (e.includes(n[r])) return !0;
   return !1;
 }
 function mn(e, n, t, r) {
   let o = -1;
-  for (; ++o < t.unsafe.length; )
+  for (; ++o < t.unsafe.length;)
     if (
       t.unsafe[o].character ===
         `
@@ -602,7 +594,7 @@ function Yr(e, n) {
     l = 0,
     i = 0;
   if (typeof n != "string") throw new TypeError("Expected substring");
-  for (; r !== -1; )
+  for (; r !== -1;)
     (r === o ? ++l > i && (i = l) : (l = 1), (o = r + n.length), (r = t.indexOf(n, o)));
   return i;
 }
@@ -759,7 +751,7 @@ function Jr(e, n, t) {
 function Kr(e, n, t) {
   let r = [],
     o = -1;
-  for (; ++o < e.length; ) r[o] = Jr(e[o], n, t);
+  for (; ++o < e.length;) r[o] = Jr(e[o], n, t);
   return r.join("");
 }
 function Yl(e) {
@@ -896,7 +888,7 @@ function yn(e, n, t) {
   let r = e.value || "",
     o = "`",
     l = -1;
-  for (; new RegExp("(^|[^`])" + o + "([^`]|$)").test(r); ) o += "`";
+  for (; new RegExp("(^|[^`])" + o + "([^`]|$)").test(r);) o += "`";
   for (
     /[^ \r\n]/.test(r) &&
     ((/^[ \r\n]/.test(r) && /[ \r\n]$/.test(r)) || /^`|`$/.test(r)) &&
@@ -907,7 +899,7 @@ function yn(e, n, t) {
       a = t.compilePattern(i),
       u;
     if (i.atBreak)
-      for (; (u = a.exec(r)); ) {
+      for (; (u = a.exec(r));) {
         let s = u.index;
         (r.charCodeAt(s) === 10 && r.charCodeAt(s - 1) === 13 && s--,
           (r = r.slice(0, s) + " " + r.slice(u.index + 1)));
@@ -1067,7 +1059,7 @@ function ri(e, n, t, r) {
       bt(t) === i && c)
     ) {
       let p = -1;
-      for (; ++p < e.children.length; ) {
+      for (; ++p < e.children.length;) {
         let h = e.children[p];
         if (
           h &&
@@ -1363,7 +1355,7 @@ function xi(e, n, t) {
     a = t.before;
   r.push(-1);
   let u = n.createTracker(t);
-  for (; ++i < o.length; ) {
+  for (; ++i < o.length;) {
     let s = o[i],
       c;
     if (((r[r.length - 1] = i), i + 1 < o.length)) {
@@ -1392,7 +1384,7 @@ function ki(e, n, t) {
     l = n.createTracker(t),
     i = [],
     a = -1;
-  for (r.push(-1); ++a < o.length; ) {
+  for (r.push(-1); ++a < o.length;) {
     let u = o[a];
     ((r[r.length - 1] = a),
       i.push(
@@ -1413,7 +1405,7 @@ function ki(e, n, t) {
 }
 function ia(e, n, t, r) {
   let o = r.join.length;
-  for (; o--; ) {
+  for (; o--;) {
     let l = r.join[o](e, n, t, r);
     if (l === !0 || l === 1) break;
     if (typeof l == "number")
@@ -1436,7 +1428,7 @@ function yi(e, n) {
     r = 0,
     o = 0,
     l;
-  for (; (l = oa.exec(e)); )
+  for (; (l = oa.exec(e));)
     (i(e.slice(r, l.index)), t.push(l[0]), (r = l.index + l[0].length), o++);
   return (i(e.slice(r)), t.join(""));
   function i(a) {
@@ -1449,12 +1441,12 @@ function wi(e, n, t) {
     l = [],
     i = {},
     a = -1;
-  for (; ++a < e.unsafe.length; ) {
+  for (; ++a < e.unsafe.length;) {
     let c = e.unsafe[a];
     if (!kt(e.stack, c)) continue;
     let p = e.compilePattern(c),
       h;
-    for (; (h = p.exec(r)); ) {
+    for (; (h = p.exec(r));) {
       let f = "before" in c || !!c.atBreak,
         d = "after" in c,
         S = h.index + (f ? h[1].length : 0);
@@ -1466,7 +1458,7 @@ function wi(e, n, t) {
   o.sort(la);
   let u = t.before ? t.before.length : 0,
     s = r.length - (t.after ? t.after.length : 0);
-  for (a = -1; ++a < o.length; ) {
+  for (a = -1; ++a < o.length;) {
     let c = o[a];
     c < u ||
       c >= s ||
@@ -1491,8 +1483,8 @@ function bi(e, n) {
     i = -1,
     a = 0,
     u;
-  for (; (u = t.exec(l)); ) r.push(u.index);
-  for (; ++i < r.length; ) (a !== r[i] && o.push(e.slice(a, r[i])), o.push("\\"), (a = r[i]));
+  for (; (u = t.exec(l));) r.push(u.index);
+  for (; ++i < r.length;) (a !== r[i] && o.push(e.slice(a, r[i])), o.push("\\"), (a = r[i]));
   return (o.push(e.slice(a)), o.join(""));
 }
 function Si(e) {
@@ -1666,7 +1658,7 @@ function An(e) {
       k = -1,
       T = [],
       C = d.enter("table");
-    for (; ++k < A.length; ) T[k] = p(A[k], d, S);
+    for (; ++k < A.length;) T[k] = p(A[k], d, S);
     return (C(), T);
   }
   function p(f, d, S) {
@@ -1674,7 +1666,7 @@ function An(e) {
       k = -1,
       T = [],
       C = d.enter("tableRow");
-    for (; ++k < A.length; ) T[k] = u(A[k], f, d, S);
+    for (; ++k < A.length;) T[k] = u(A[k], f, d, S);
     return (C(), T);
   }
   function h(f, d, S) {
@@ -1704,7 +1696,7 @@ function ya(e) {
       let o = n.children,
         l = -1,
         i;
-      for (; ++l < o.length; ) {
+      for (; ++l < o.length;) {
         let a = o[l];
         if (a.type === "paragraph") {
           i = a;
@@ -1750,7 +1742,7 @@ function G(e, n, t, r) {
   if ((n < 0 ? (n = -n > o ? 0 : o + n) : (n = n > o ? o : n), (t = t > 0 ? t : 0), r.length < 1e4))
     ((i = Array.from(r)), i.unshift(n, t), e.splice(...i));
   else
-    for (t && e.splice(n, t); l < r.length; )
+    for (t && e.splice(n, t); l < r.length;)
       ((i = r.slice(l, l + 1e4)), i.unshift(n, 0), e.splice(...i), (l += 1e4), (n += 1e4));
 }
 function re(e, n) {
@@ -1760,7 +1752,7 @@ var Ei = {}.hasOwnProperty;
 function Ct(e) {
   let n = {},
     t = -1;
-  for (; ++t < e.length; ) wa(n, e[t]);
+  for (; ++t < e.length;) wa(n, e[t]);
   return n;
 }
 function wa(e, n) {
@@ -1780,7 +1772,7 @@ function wa(e, n) {
 function Sa(e, n) {
   let t = -1,
     r = [];
-  for (; ++t < n.length; ) (n[t].add === "after" ? e : r).push(n[t]);
+  for (; ++t < n.length;) (n[t].add === "after" ? e : r).push(n[t]);
   G(e, 0, 0, r);
 }
 var Ca = { tokenize: La, partial: !0 },
@@ -1796,7 +1788,7 @@ function Dn() {
   return { text: ge };
 }
 var Me = 48;
-for (; Me < 123; ) ((ge[Me] = we), Me++, Me === 58 ? (Me = 65) : Me === 91 && (Me = 97));
+for (; Me < 123;) ((ge[Me] = we), Me++, Me === 58 ? (Me = 65) : Me === 91 && (Me = 97));
 ge[43] = we;
 ge[45] = we;
 ge[46] = we;
@@ -2006,7 +1998,7 @@ function Pn(e) {
 function vn(e) {
   let n = e.length,
     t = !1;
-  for (; n--; ) {
+  for (; n--;) {
     let r = e[n][1];
     if ((r.type === "labelLink" || r.type === "labelImage") && !r._balanced) {
       t = !0;
@@ -2024,7 +2016,7 @@ function ue(e) {
     t = -1,
     r = 0,
     o = 0;
-  for (; ++t < e.length; ) {
+  for (; ++t < e.length;) {
     let l = e.charCodeAt(t),
       i = "";
     if (l === 37 && Q(e.charCodeAt(t + 1)) && Q(e.charCodeAt(t + 2))) o = 2;
@@ -2048,7 +2040,7 @@ function Ye(e) {
 function Ie(e, n, t) {
   let r = [],
     o = -1;
-  for (; ++o < e.length; ) {
+  for (; ++o < e.length;) {
     let l = e[o].resolveAll;
     l && !r.includes(l) && ((n = l(n, t)), r.push(l));
   }
@@ -2065,9 +2057,9 @@ function va(e, n) {
     u,
     s,
     c;
-  for (; ++t < e.length; )
+  for (; ++t < e.length;)
     if (e[t][0] === "enter" && e[t][1].type === "attentionSequence" && e[t][1]._close) {
-      for (r = t; r--; )
+      for (r = t; r--;)
         if (
           e[r][0] === "exit" &&
           e[r][1].type === "attentionSequence" &&
@@ -2148,7 +2140,7 @@ function va(e, n) {
           break;
         }
     }
-  for (t = -1; ++t < e.length; ) e[t][1].type === "attentionSequence" && (e[t][1].type = "data");
+  for (t = -1; ++t < e.length;) e[t][1].type === "attentionSequence" && (e[t][1].type = "data");
   return e;
 }
 function Oa(e, n) {
@@ -2552,7 +2544,7 @@ function Ya(e) {
     (e[t][1].type === "lineEnding" || e[t][1].type === "space") &&
     (e[n][1].type === "lineEnding" || e[n][1].type === "space")
   ) {
-    for (r = t; ++r < n; )
+    for (r = t; ++r < n;)
       if (e[r][1].type === "codeTextData") {
         ((e[t][1].type = "codeTextPadding"),
           (e[n][1].type = "codeTextPadding"),
@@ -2561,7 +2553,7 @@ function Ya(e) {
         break;
       }
   }
-  for (r = t - 1, n++; ++r <= n; )
+  for (r = t - 1, n++; ++r <= n;)
     o === void 0
       ? r !== n && e[r][1].type !== "lineEnding" && (o = r)
       : (r === n || e[r][1].type === "lineEnding") &&
@@ -2673,13 +2665,11 @@ var Lt = class {
     (this.setCursor(0), lt(this.right, n.reverse()));
   }
   setCursor(n) {
-    if (
-      !(
-        n === this.left.length ||
-        (n > this.left.length && this.right.length === 0) ||
-        (n < 0 && this.left.length === 0)
-      )
-    )
+    if (!(
+      n === this.left.length ||
+      (n > this.left.length && this.right.length === 0) ||
+      (n < 0 && this.left.length === 0)
+    ))
       if (n < this.left.length) {
         let t = this.left.splice(n, Number.POSITIVE_INFINITY);
         lt(this.right, t.reverse());
@@ -2695,7 +2685,7 @@ var Lt = class {
 function lt(e, n) {
   let t = 0;
   if (n.length < 1e4) e.push(...n);
-  else for (; t < n.length; ) (e.push(...n.slice(t, t + 1e4)), (t += 1e4));
+  else for (; t < n.length;) (e.push(...n.slice(t, t + 1e4)), (t += 1e4));
 }
 function zt(e) {
   let n = {},
@@ -2708,8 +2698,8 @@ function zt(e) {
     u,
     s,
     c = new Lt(e);
-  for (; ++t < c.length; ) {
-    for (; t in n; ) t = n[t];
+  for (; ++t < c.length;) {
+    for (; t in n;) t = n[t];
     if (
       ((r = c.get(t)),
       t &&
@@ -2720,7 +2710,7 @@ function zt(e) {
         l < u.length && u[l][1].type === "lineEndingBlank" && (l += 2),
         l < u.length && u[l][1].type === "content"))
     )
-      for (; ++l < u.length && u[l][1].type !== "content"; )
+      for (; ++l < u.length && u[l][1].type !== "content";)
         u[l][1].type === "chunkText" && ((u[l][1]._isInFirstContentOfListItem = !0), l++);
     if (r[0] === "enter") r[1].contentType && (Object.assign(n, $a(c, t)), (t = n[t]), (s = !0));
     else if (r[1]._container) {
@@ -2755,8 +2745,8 @@ function $a(e, n) {
     d = 0,
     S = 0,
     A = [S];
-  for (; f; ) {
-    for (; e.get(++o)[1] !== f; );
+  for (; f;) {
+    for (; e.get(++o)[1] !== f;);
     (l.push(o),
       f._tokenizer ||
         ((c = r.sliceStream(f)),
@@ -2768,7 +2758,7 @@ function $a(e, n) {
       (p = f),
       (f = f.next));
   }
-  for (f = t; ++h < a.length; )
+  for (f = t; ++h < a.length;)
     a[h][0] === "exit" &&
       a[h - 1][0] === "enter" &&
       a[h][1].type === a[h - 1][1].type &&
@@ -2782,7 +2772,7 @@ function $a(e, n) {
       T = l.pop();
     (u.push([T, T + k.length - 1]), e.splice(T, 2, k));
   }
-  for (u.reverse(), h = -1; ++h < u.length; )
+  for (u.reverse(), h = -1; ++h < u.length;)
     ((s[d + u[h][0]] = d + u[h][1]), (d += u[h][1] - u[h][0] - 1));
   return s;
 }
@@ -3153,7 +3143,7 @@ var Hn = { name: "htmlFlow", tokenize: cu, resolveTo: su, concrete: !0 },
   uu = { tokenize: pu, partial: !0 };
 function su(e) {
   let n = e.length;
-  for (; n-- && !(e[n][0] === "enter" && e[n][1].type === "htmlFlow"); );
+  for (; n-- && !(e[n][0] === "enter" && e[n][1].type === "htmlFlow"););
   return (
     n > 1 &&
       e[n - 2][1].type === "linePrefix" &&
@@ -3511,7 +3501,7 @@ var _e = { name: "labelEnd", tokenize: yu, resolveTo: ku, resolveAll: xu },
   du = { tokenize: Su };
 function xu(e) {
   let n = -1;
-  for (; ++n < e.length; ) {
+  for (; ++n < e.length;) {
     let t = e[n][1];
     (t.type === "labelImage" || t.type === "labelLink" || t.type === "labelEnd") &&
       (e.splice(n + 1, t.type === "labelImage" ? 4 : 2), (t.type = "data"), n++);
@@ -3525,7 +3515,7 @@ function ku(e, n) {
     l,
     i,
     a;
-  for (; t--; )
+  for (; t--;)
     if (((o = e[t][1]), l)) {
       if (o.type === "link" || (o.type === "labelLink" && o._inactive)) break;
       e[t][0] === "enter" && o.type === "labelLink" && (o._inactive = !0);
@@ -3575,7 +3565,7 @@ function yu(e, n, t) {
     o = r.events.length,
     l,
     i;
-  for (; o--; )
+  for (; o--;)
     if (
       (r.events[o][1].type === "labelImage" || r.events[o][1].type === "labelLink") &&
       !r.events[o][1]._balanced
@@ -3895,7 +3885,7 @@ function Ou(e, n) {
     r,
     o,
     l;
-  for (; t--; )
+  for (; t--;)
     if (e[t][0] === "enter") {
       if (e[t][1].type === "content") {
         r = t;
@@ -3928,7 +3918,7 @@ function Ru(e, n, t) {
   function l(s) {
     let c = r.events.length,
       p;
-    for (; c--; )
+    for (; c--;)
       if (
         r.events[c][1].type !== "lineEnding" &&
         r.events[c][1].type !== "linePrefix" &&
@@ -3970,7 +3960,7 @@ function Bu(e, n, t) {
     o = r.events.length,
     l = r.parser.gfmFootnotes || (r.parser.gfmFootnotes = []),
     i;
-  for (; o--; ) {
+  for (; o--;) {
     let u = r.events[o][1];
     if (u.type === "labelImage") {
       i = u;
@@ -4000,7 +3990,7 @@ function Bu(e, n, t) {
 function _u(e, n) {
   let t = e.length,
     r;
-  for (; t--; )
+  for (; t--;)
     if (e[t][1].type === "labelImage" && e[t][0] === "enter") {
       r = e[t][1];
       break;
@@ -4176,14 +4166,14 @@ function Qn(e) {
   );
   function o(i, a) {
     let u = -1;
-    for (; ++u < i.length; )
+    for (; ++u < i.length;)
       if (
         i[u][0] === "enter" &&
         i[u][1].type === "strikethroughSequenceTemporary" &&
         i[u][1]._close
       ) {
         let s = u;
-        for (; s--; )
+        for (; s--;)
           if (
             i[s][0] === "exit" &&
             i[s][1].type === "strikethroughSequenceTemporary" &&
@@ -4220,7 +4210,7 @@ function Qn(e) {
             break;
           }
       }
-    for (u = -1; ++u < i.length; )
+    for (u = -1; ++u < i.length;)
       i[u][1].type === "strikethroughSequenceTemporary" && (i[u][1].type = "data");
     return i;
   }
@@ -4261,13 +4251,13 @@ var Ot = class {
       return;
     let t = this.map.length,
       r = [];
-    for (; t > 0; )
+    for (; t > 0;)
       ((t -= 1),
         r.push(n.slice(this.map[t][0] + this.map[t][1]), this.map[t][2]),
         (n.length = this.map[t][0]));
     (r.push(n.slice()), (n.length = 0));
     let o = r.pop();
-    for (; o; ) {
+    for (; o;) {
       for (let l of o) n.push(l);
       o = r.pop();
     }
@@ -4277,7 +4267,7 @@ var Ot = class {
 function qu(e, n, t, r) {
   let o = 0;
   if (!(t === 0 && r.length === 0)) {
-    for (; o < e.map.length; ) {
+    for (; o < e.map.length;) {
       if (e.map[o][0] === n) {
         ((e.map[o][1] += t), e.map[o][2].push(...r));
         return;
@@ -4290,7 +4280,7 @@ function qu(e, n, t, r) {
 function Bi(e, n) {
   let t = !1,
     r = [];
-  for (; n < e.length; ) {
+  for (; n < e.length;) {
     let o = e[n];
     if (t) {
       if (o[0] === "enter")
@@ -4318,7 +4308,7 @@ function Wu(e, n, t) {
   return a;
   function a(x) {
     let Z = r.events.length - 1;
-    for (; Z > -1; ) {
+    for (; Z > -1;) {
       let v = r.events[Z][1].type;
       if (v === "lineEnding" || v === "linePrefix") Z--;
       else break;
@@ -4466,7 +4456,7 @@ function Qu(e, n) {
     c,
     p,
     h = new Ot();
-  for (; ++t < e.length; ) {
+  for (; ++t < e.length;) {
     let f = e[t],
       d = f[1];
     f[0] === "enter"
@@ -4517,7 +4507,7 @@ function Qu(e, n) {
               d.type === "tableDelimiterFiller") &&
             (i[3] = t);
   }
-  for (u !== 0 && _i(h, n, u, s, c), h.consume(n.events), t = -1; ++t < n.events.length; ) {
+  for (u !== 0 && _i(h, n, u, s, c), h.consume(n.events), t = -1; ++t < n.events.length;) {
     let f = n.events[t];
     f[0] === "enter" && f[1].type === "table" && (f[1]._align = Bi(n.events, t));
   }
@@ -4682,14 +4672,14 @@ function Ku(e) {
       let R = n.events.length,
         M = R,
         b;
-      for (; M--; )
+      for (; M--;)
         if (n.events[M][0] === "exit" && n.events[M][1].type === "chunkFlow") {
           b = n.events[M][1].end;
           break;
         }
       k(r);
       let N = R;
-      for (; N < n.events.length; ) ((n.events[N][1].end = Object.assign({}, b)), N++);
+      for (; N < n.events.length;) ((n.events[N][1].end = Object.assign({}, b)), N++);
       return (G(n.events, M + 1, 0, n.events.slice(R)), (n.events.length = N), s(C));
     }
     return a(C);
@@ -4746,7 +4736,7 @@ function Ku(e) {
       n.parser.lazy[C.start.line])
     ) {
       let b = o.events.length;
-      for (; b--; )
+      for (; b--;)
         if (
           o.events[b][1].start.offset < i &&
           (!o.events[b][1].end || o.events[b][1].end.offset > i)
@@ -4756,7 +4746,7 @@ function Ku(e) {
         q = N,
         j,
         x;
-      for (; q--; )
+      for (; q--;)
         if (n.events[q][0] === "exit" && n.events[q][1].type === "chunkFlow") {
           if (j) {
             x = n.events[q][1].end;
@@ -4764,13 +4754,13 @@ function Ku(e) {
           }
           j = !0;
         }
-      for (k(r), b = N; b < n.events.length; ) ((n.events[b][1].end = Object.assign({}, x)), b++);
+      for (k(r), b = N; b < n.events.length;) ((n.events[b][1].end = Object.assign({}, x)), b++);
       (G(n.events, q + 1, 0, n.events.slice(N)), (n.events.length = b));
     }
   }
   function k(C) {
     let R = t.length;
-    for (; R-- > C; ) {
+    for (; R-- > C;) {
       let M = t[R];
       ((n.containerState = M[1]), M[0].exit.call(n, e));
     }
@@ -4856,7 +4846,7 @@ function Gi(e) {
       let p = o[c],
         h = -1;
       if (p)
-        for (; ++h < p.length; ) {
+        for (; ++h < p.length;) {
           let f = p[h];
           if (!f.previous || f.previous.call(r, r.previous)) return !0;
         }
@@ -4869,7 +4859,7 @@ function Xi(e) {
   function n(t, r) {
     let o = -1,
       l;
-    for (; ++o <= t.length; )
+    for (; ++o <= t.length;)
       l === void 0
         ? t[o] && t[o][1].type === "data" && ((l = o), o++)
         : (!t[o] || t[o][1].type !== "data") &&
@@ -4881,7 +4871,7 @@ function Xi(e) {
 }
 function ts(e, n) {
   let t = 0;
-  for (; ++t <= e.length; )
+  for (; ++t <= e.length;)
     if ((t === e.length || e[t][1].type === "lineEnding") && e[t - 1][1].type === "data") {
       let r = e[t - 1][1],
         o = n.sliceStream(r),
@@ -4889,10 +4879,10 @@ function ts(e, n) {
         i = -1,
         a = 0,
         u;
-      for (; l--; ) {
+      for (; l--;) {
         let s = o[l];
         if (typeof s == "string") {
-          for (i = s.length; s.charCodeAt(i - 1) === 32; ) (a++, i--);
+          for (i = s.length; s.charCodeAt(i - 1) === 32;) (a++, i--);
           if (i) break;
           i = -1;
         } else if (s === -2) ((u = !0), a++);
@@ -4977,7 +4967,7 @@ function $i(e, n, t) {
   }
   function T() {
     let L;
-    for (; r._index < i.length; ) {
+    for (; r._index < i.length;) {
       let v = i[r._index];
       if (typeof v == "string")
         for (
@@ -5097,7 +5087,7 @@ function rs(e, n) {
   let t = -1,
     r = [],
     o;
-  for (; ++t < e.length; ) {
+  for (; ++t < e.length;) {
     let l = e[t],
       i;
     if (typeof l == "string") i = l;
@@ -5203,7 +5193,7 @@ function $n(e) {
   }
 }
 function Zn(e) {
-  for (; !zt(e); );
+  for (; !zt(e););
   return e;
 }
 var Zi = /[\0\t\n\r]/g;
@@ -5247,7 +5237,7 @@ function Kn() {
             break;
           }
           case 9: {
-            for (c = Math.ceil(e / 4) * 4, u.push(-2); e++ < c; ) u.push(-1);
+            for (c = Math.ceil(e / 4) * 4, u.push(-2); e++ < c;) u.push(-1);
             break;
           }
           case 10: {
@@ -5411,14 +5401,14 @@ function hs(e) {
       },
       _ = [],
       V = -1;
-    for (; ++V < y.length; )
+    for (; ++V < y.length;)
       if (y[V][1].type === "listOrdered" || y[V][1].type === "listUnordered")
         if (y[V][0] === "enter") _.push(V);
         else {
           let pe = _.pop();
           V = o(y, pe, V);
         }
-    for (V = -1; ++V < y.length; ) {
+    for (V = -1; ++V < y.length;) {
       let pe = n[y[V][0]];
       to.call(pe, y[V][1].type) &&
         pe[y[V][1].type].call(
@@ -5449,7 +5439,7 @@ function hs(e) {
       ye,
       et,
       tt;
-    for (; ++_ <= P; ) {
+    for (; ++_ <= P;) {
       let le = y[_];
       switch (le[1].type) {
         case "listUnordered":
@@ -5479,22 +5469,20 @@ function hs(e) {
       ) {
         if (Fe) {
           let Ve = _;
-          for (ye = void 0; Ve--; ) {
+          for (ye = void 0; Ve--;) {
             let be = y[Ve];
             if (be[1].type === "lineEnding" || be[1].type === "lineEndingBlank") {
               if (be[0] === "exit") continue;
               (ye && ((y[ye][1].type = "lineEndingBlank"), (pe = !0)),
                 (be[1].type = "lineEnding"),
                 (ye = Ve));
-            } else if (
-              !(
-                be[1].type === "linePrefix" ||
-                be[1].type === "blockQuotePrefix" ||
-                be[1].type === "blockQuotePrefixWhitespace" ||
-                be[1].type === "blockQuoteMarker" ||
-                be[1].type === "listItemIndent"
-              )
-            )
+            } else if (!(
+              be[1].type === "linePrefix" ||
+              be[1].type === "blockQuotePrefix" ||
+              be[1].type === "blockQuotePrefixWhitespace" ||
+              be[1].type === "blockQuoteMarker" ||
+              be[1].type === "listItemIndent"
+            ))
               break;
           }
           (et && (!ye || et < ye) && (Fe._spread = !0),
@@ -5800,7 +5788,7 @@ function Ae(e) {
 }
 function no(e, n) {
   let t = -1;
-  for (; ++t < n.length; ) {
+  for (; ++t < n.length;) {
     let r = n[t];
     Array.isArray(r) ? no(e, r) : ms(e, r);
   }
@@ -6023,7 +6011,7 @@ function ko(e, n, t) {
       (l.className = ["task-list-item"]));
   }
   let a = -1;
-  for (; ++a < r.length; ) {
+  for (; ++a < r.length;) {
     let c = r[a];
     ((o || a !== 0 || c.type !== "element" || c.tagName !== "p") &&
       i.push({
@@ -6050,7 +6038,7 @@ function gs(e) {
     n = e.spread || !1;
     let t = e.children,
       r = -1;
-    for (; !n && ++r < t.length; ) n = yo(t[r]);
+    for (; !n && ++r < t.length;) n = yo(t[r]);
   }
   return n;
 }
@@ -6062,7 +6050,7 @@ function bo(e, n) {
   let t = {},
     r = e.all(n),
     o = -1;
-  for (typeof n.start == "number" && n.start !== 1 && (t.start = n.start); ++o < r.length; ) {
+  for (typeof n.start == "number" && n.start !== 1 && (t.start = n.start); ++o < r.length;) {
     let i = r[o];
     if (
       i.type === "element" &&
@@ -6138,7 +6126,7 @@ function Ao(e, n, t) {
     a = i ? i.length : n.children.length,
     u = -1,
     s = [];
-  for (; ++u < a; ) {
+  for (; ++u < a;) {
     let p = n.children[u],
       h = {},
       f = i ? i[u] : void 0;
@@ -6370,7 +6358,7 @@ function Do(e) {
     i = e.options.footnoteLabelProperties || { className: ["sr-only"] },
     a = [],
     u = -1;
-  for (; ++u < e.footnoteOrder.length; ) {
+  for (; ++u < e.footnoteOrder.length;) {
     let s = e.footnoteById.get(e.footnoteOrder[u]);
     if (!s) continue;
     let c = e.all(s),
@@ -6379,7 +6367,7 @@ function Do(e) {
       f = 0,
       d = [],
       S = e.footnoteCounts.get(p);
-    for (; S !== void 0 && ++f <= S; ) {
+    for (; S !== void 0 && ++f <= S;) {
       d.length > 0 && d.push({ type: "text", value: " " });
       let T = typeof t == "string" ? t : t(u, f);
       (typeof T == "string" && (T = { type: "text", value: T }),
@@ -6485,7 +6473,7 @@ function Oo(e, n) {
     if ("children" in c) {
       let h = c.children,
         f = -1;
-      for (; ++f < h.length; ) {
+      for (; ++f < h.length;) {
         let d = a.one(h[f], c);
         if (d) {
           if (
@@ -6565,7 +6553,7 @@ function As(e, n) {
 function vo(e) {
   let n = 0,
     t = e.charCodeAt(n);
-  for (; t === 9 || t === 32; ) (n++, (t = e.charCodeAt(n)));
+  for (; t === 9 || t === 32;) (n++, (t = e.charCodeAt(n)));
   return e.slice(n);
 }
 function Wt(e, n) {
@@ -6626,7 +6614,7 @@ function sr() {
         i(u);
         return;
       }
-      for (; ++p < o.length; ) (s[p] === null || s[p] === void 0) && (s[p] = o[p]);
+      for (; ++p < o.length;) (s[p] === null || s[p] === void 0) && (s[p] = o[p]);
       ((o = s), c ? Wo(c, a)(...s) : i(null, ...s));
     }
   }
@@ -6731,7 +6719,7 @@ function Ts(e, n) {
     o = e.length,
     l;
   if (n === void 0 || n.length === 0 || n.length > e.length) {
-    for (; o--; )
+    for (; o--;)
       if (e.codePointAt(o) === 47) {
         if (l) {
           t = o + 1;
@@ -6743,7 +6731,7 @@ function Ts(e, n) {
   if (n === e) return "";
   let i = -1,
     a = n.length - 1;
-  for (; o--; )
+  for (; o--;)
     if (e.codePointAt(o) === 47) {
       if (l) {
         t = o + 1;
@@ -6760,7 +6748,7 @@ function Ls(e) {
   let n = -1,
     t = e.length,
     r;
-  for (; --t; )
+  for (; --t;)
     if (e.codePointAt(t) === 47) {
       if (r) {
         n = t;
@@ -6783,7 +6771,7 @@ function zs(e) {
     o = -1,
     l = 0,
     i;
-  for (; n--; ) {
+  for (; n--;) {
     let a = e.codePointAt(n);
     if (a === 47) {
       if (i) {
@@ -6800,7 +6788,7 @@ function zs(e) {
 function Fs(...e) {
   let n = -1,
     t;
-  for (; ++n < e.length; ) (ht(e[n]), e[n] && (t = t === void 0 ? e[n] : t + "/" + e[n]));
+  for (; ++n < e.length;) (ht(e[n]), e[n] && (t = t === void 0 ? e[n] : t + "/" + e[n]));
   return t === void 0 ? "." : Ps(t);
 }
 function Ps(e) {
@@ -6821,7 +6809,7 @@ function Ds(e, n) {
     i = -1,
     a,
     u;
-  for (; ++i <= e.length; ) {
+  for (; ++i <= e.length;) {
     if (i < e.length) a = e.codePointAt(i);
     else {
       if (a === 47) break;
@@ -6899,7 +6887,7 @@ function Os(e) {
   }
   let n = e.pathname,
     t = -1;
-  for (; ++t < n.length; )
+  for (; ++t < n.length;)
     if (n.codePointAt(t) === 37 && n.codePointAt(t + 1) === 50) {
       let r = n.codePointAt(t + 2);
       if (r === 70 || r === 102) {
@@ -6929,7 +6917,7 @@ var cr = ["history", "path", "basename", "stem", "extname", "dirname"],
         this.result,
         this.stored);
       let r = -1;
-      for (; ++r < cr.length; ) {
+      for (; ++r < cr.length;) {
         let l = cr[r];
         l in t &&
           t[l] !== void 0 &&
@@ -7038,7 +7026,7 @@ var Ms = {}.hasOwnProperty,
     copy() {
       let n = new e(),
         t = -1;
-      for (; ++t < this.attachers.length; ) {
+      for (; ++t < this.attachers.length;) {
         let r = this.attachers[t];
         n.use(...r);
       }
@@ -7056,7 +7044,7 @@ var Ms = {}.hasOwnProperty,
     freeze() {
       if (this.frozen) return this;
       let n = this;
-      for (; ++this.freezeIndex < this.attachers.length; ) {
+      for (; ++this.freezeIndex < this.attachers.length;) {
         let [t, ...r] = this.attachers[this.freezeIndex];
         if (r[0] === !1) continue;
         r[0] === !0 && (r[0] = void 0);
@@ -7166,7 +7154,7 @@ var Ms = {}.hasOwnProperty,
         let c = -1;
         if (s != null)
           if (Array.isArray(s))
-            for (; ++c < s.length; ) {
+            for (; ++c < s.length;) {
               let p = s[c];
               l(p);
             }
@@ -7175,7 +7163,7 @@ var Ms = {}.hasOwnProperty,
       function u(s, c) {
         let p = -1,
           h = -1;
-        for (; ++p < r.length; )
+        for (; ++p < r.length;)
           if (r[p][0] === s) {
             h = p;
             break;
@@ -7284,7 +7272,7 @@ var xr = Object.keys(gt),
     constructor(n, t, r, o) {
       let l = -1;
       if ((super(n, t), Ko(this, "space", o), typeof r == "number"))
-        for (; ++l < xr.length; ) {
+        for (; ++l < xr.length;) {
           let i = xr[l];
           Ko(this, xr[l], (r & gt[i]) === gt[i]);
         }
@@ -8311,7 +8299,7 @@ function rb(e) {
     r = t.indexOf(","),
     o = 0,
     l = !1;
-  for (; !l; ) {
+  for (; !l;) {
     r === -1 && ((r = t.length), (l = !0));
     let i = t.slice(o, r).trim();
     ((i || !l) && n.push(i), (o = r + 1), (r = t.indexOf(",", o)));
@@ -8387,4 +8375,4 @@ export {
   Ro as x,
   Bs as y,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-UUJZFRP4.mjs.map
+//# sourceMappingURL=chunk-UUJZFRP4.mjs.map

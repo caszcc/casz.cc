@@ -93,7 +93,7 @@ function Qe(i, e, t) {
   }
 }
 function Xe(i, e, t, n) {
-  for (let r = i.childCount, s = e.childCount; ; ) {
+  for (let r = i.childCount, s = e.childCount; ;) {
     if (r == 0 || s == 0) return r == s ? null : { a: t, b: n };
     let l = i.child(--r),
       o = e.child(--s),
@@ -106,7 +106,7 @@ function Xe(i, e, t, n) {
     if (l.isText && l.text != o.text) {
       let a = 0,
         c = Math.min(l.text.length, o.text.length);
-      for (; a < c && l.text[l.text.length - a - 1] == o.text[o.text.length - a - 1]; )
+      for (; a < c && l.text[l.text.length - a - 1] == o.text[o.text.length - a - 1];)
         (a++, t--, n--);
       return { a: t, b: n };
     }
@@ -658,7 +658,7 @@ var ne = class i {
       let n = [],
         r = 0,
         s = t;
-      for (let l = e; ; ) {
+      for (let l = e; ;) {
         let { index: o, offset: h } = l.content.findIndex(s),
           a = s - h;
         if ((n.push(l, o, r + h), !a || ((l = l.child(o)), l.isText))) break;
@@ -783,7 +783,7 @@ var ne = class i {
       return Jt(this.resolve(e), this.resolve(t), n);
     }
     nodeAt(e) {
-      for (let t = this; ; ) {
+      for (let t = this; ;) {
         let { index: n, offset: r } = t.content.findIndex(e);
         if (((t = t.maybeChild(n)), !t)) return null;
         if (r == e || t.isText) return t;
@@ -1007,7 +1007,7 @@ var z = class i {
   computeWrapping(e) {
     let t = Object.create(null),
       n = [{ match: this, type: null, via: null }];
-    for (; n.length; ) {
+    for (; n.length;) {
       let r = n.shift(),
         s = r.match;
       if (s.matchType(e)) {
@@ -1559,13 +1559,11 @@ var Le = class i {
       for (let s = r ? this.styles.indexOf(r) + 1 : 0; s < this.styles.length; s++) {
         let l = this.styles[s],
           o = l.style;
-        if (
-          !(
-            o.indexOf(e) != 0 ||
-            (l.context && !n.matchesContext(l.context)) ||
-            (o.length > e.length && (o.charCodeAt(e.length) != 61 || o.slice(e.length + 1) != t))
-          )
-        ) {
+        if (!(
+          o.indexOf(e) != 0 ||
+          (l.context && !n.matchesContext(l.context)) ||
+          (o.length > e.length && (o.charCodeAt(e.length) != 61 || o.slice(e.length + 1) != t))
+        )) {
           if (l.getAttrs) {
             let h = l.getAttrs(t);
             if (h === !1) continue;
@@ -1809,7 +1807,7 @@ var W = class {
           let s = this.parser.matchedStyles[r],
             l = n.getPropertyValue(s);
           if (l)
-            for (let o = void 0; ; ) {
+            for (let o = void 0; ;) {
               let h = this.parser.matchStyle(s, l, this, o);
               if (!h) break;
               if (h.ignore) return null;
@@ -2072,7 +2070,7 @@ var Ge = class i {
         if (s.length || l.marks.length) {
           let o = 0,
             h = 0;
-          for (; o < s.length && h < l.marks.length; ) {
+          for (; o < s.length && h < l.marks.length;) {
             let a = l.marks[h];
             if (!this.marks[a.type.name]) {
               h++;
@@ -2081,8 +2079,8 @@ var Ge = class i {
             if (!a.eq(s[o][0]) || a.type.spec.spanning === !1) break;
             (o++, h++);
           }
-          for (; o < s.length; ) r = s.pop()[1];
-          for (; h < l.marks.length; ) {
+          for (; o < s.length;) r = s.pop()[1];
+          for (; h < l.marks.length;) {
             let a = l.marks[h++],
               c = this.serializeMark(a, l.isInline, t);
             c && (s.push([a, r]), r.appendChild(c.dom), (r = c.contentDOM || c.dom));
@@ -2710,10 +2708,10 @@ function be(i, e, t) {
   let n = i.resolve(e),
     r = t - e,
     s = n.depth;
-  for (; r > 0 && s > 0 && n.indexAfter(s) == n.node(s).childCount; ) (s--, r--);
+  for (; r > 0 && s > 0 && n.indexAfter(s) == n.node(s).childCount;) (s--, r--);
   if (r > 0) {
     let l = n.node(s).maybeChild(n.indexAfter(s));
-    for (; r > 0; ) {
+    for (; r > 0;) {
       if (!l || l.isLeaf) return !0;
       ((l = l.firstChild), r--);
     }
@@ -2751,7 +2749,7 @@ function sn(i, e, t, n) {
     if (n instanceof V) {
       let a = l.marks,
         c;
-      for (; (c = n.isInSet(a)); ) ((h || (h = [])).push(c), (a = c.removeFromSet(a)));
+      for (; (c = n.isInSet(a));) ((h || (h = [])).push(c), (a = c.removeFromSet(a)));
     } else n ? n.isInSet(l.marks) && (h = [n]) : (h = l.marks);
     if (h && h.length) {
       let a = Math.min(o + l.nodeSize, t);
@@ -2785,7 +2783,7 @@ function Te(i, e, t, n = t.contentMatch, r = !0) {
         let u,
           d = /\r?\n|\r/g,
           m;
-        for (; (u = d.exec(a.text)); )
+        for (; (u = d.exec(a.text));)
           (m || (m = new g(p.from(t.schema.text(" ", t.allowedMarks(a.marks))), 0, 0)),
             l.push(new E(o + u.index, o + u.index + u[0].length, m)));
       }
@@ -2897,7 +2895,7 @@ function gt(i, e, t, n) {
     if (r.isText) {
       let l,
         o = /\r?\n|\r/g;
-      for (; (l = o.exec(r.text)); ) {
+      for (; (l = o.exec(r.text));) {
         let h = i.mapping.slice(n).map(t + 1 + s + l.index);
         i.replaceWith(h, h + 1, e.type.schema.linebreakReplacement.create());
       }
@@ -3097,7 +3095,7 @@ var Oe = class {
     return this.frontier.length - 1;
   }
   fit() {
-    for (; this.unplaced.size; ) {
+    for (; this.unplaced.size;) {
       let a = this.findFittable();
       a ? this.placeNodes(a) : this.openMore() || this.dropNode();
     }
@@ -3109,7 +3107,7 @@ var Oe = class {
     let s = this.placed,
       l = n.depth,
       o = r.depth;
-    for (; l && o && s.childCount == 1; ) ((s = s.firstChild.content), l--, o--);
+    for (; l && o && s.childCount == 1;) ((s = s.firstChild.content), l--, o--);
     let h = new g(s, l, o);
     return e > -1
       ? new O(n.pos, e, this.$to.pos, this.$to.end(), h, t)
@@ -3168,7 +3166,7 @@ var Oe = class {
     } else this.unplaced = new g(H(e, t, 1), t, n);
   }
   placeNodes({ sliceDepth: e, frontierDepth: t, parent: n, inject: r, wrap: s }) {
-    for (; this.depth > t; ) this.closeFrontierNode();
+    for (; this.depth > t;) this.closeFrontierNode();
     if (s) for (let y = 0; y < s.length; y++) this.openFrontierNode(s[y]);
     let l = this.unplaced,
       o = n ? n.content : l.content,
@@ -3181,7 +3179,7 @@ var Oe = class {
       f = f.matchFragment(r);
     }
     let d = o.size + e - (l.content.size - l.openEnd);
-    for (; a < o.childCount; ) {
+    for (; a < o.childCount;) {
       let y = o.child(a),
         M = f.matchType(y.type);
       if (!M) break;
@@ -3223,7 +3221,7 @@ var Oe = class {
       return -1;
     let { depth: n } = this.$to,
       r = this.$to.after(n);
-    for (; n > 1 && r == this.$to.end(--n); ) ++r;
+    for (; n > 1 && r == this.$to.end(--n);) ++r;
     return r;
   }
   findCloseLevel(e) {
@@ -3244,7 +3242,7 @@ var Oe = class {
   close(e) {
     let t = this.findCloseLevel(e);
     if (!t) return null;
-    for (; this.depth > t.depth; ) this.closeFrontierNode();
+    for (; this.depth > t.depth;) this.closeFrontierNode();
     (t.fit.childCount && (this.placed = K(this.placed, t.depth, t.fit)), (e = t.move));
     for (let n = t.depth + 1; n <= e.depth; n++) {
       let r = e.node(n),
@@ -4226,4 +4224,4 @@ export {
   Rt as y,
   It as z,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-KYPY4QS7.mjs.map
+//# sourceMappingURL=chunk-KYPY4QS7.mjs.map

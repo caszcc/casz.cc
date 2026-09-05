@@ -1,4 +1,4 @@
-import { b as e, c as n } from "./chunk-MW3Q7TLO.mjs";
+import { b as e, c as n } from "chunk-MW3Q7TLO.mjs";
 var a = new n("sandbox", {
   sandbox: new e(),
   controlsVisibility: new e(),
@@ -9,4 +9,4 @@ var a = new n("sandbox", {
   treeStore: new e(),
 });
 export { a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-LLAMEIG4.mjs.map
+//# sourceMappingURL=chunk-LLAMEIG4.mjs.map

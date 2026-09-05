@@ -173,7 +173,7 @@ var $ = (a, b, c) => {
             },
       d = (h) => (b = c ? new e(h, b, "An error was suppressed during disposal") : ((c = !0), h)),
       g = (h) => {
-        for (; (h = a.pop()); )
+        for (; (h = a.pop());)
           try {
             var i = h[1] && h[1].call(h[2]);
             if (h[0]) return Promise.resolve(i).then(g, (n) => (d(n), g()));
@@ -203,4 +203,4 @@ export {
   $ as p,
   aa as q,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-WLHSDIGQ.mjs.map
+//# sourceMappingURL=chunk-WLHSDIGQ.mjs.map

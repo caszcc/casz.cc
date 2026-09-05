@@ -1,8 +1,8 @@
-import { _ as P } from "./chunk-WJKXLTYC.mjs";
-import { a as E } from "./chunk-W774OHJB.mjs";
-import { c as C, f as a, g as c } from "./chunk-LTYGJUPU.mjs";
-import { b as y, c as U } from "./chunk-KPMZENE5.mjs";
-import { e as T } from "./chunk-WLHSDIGQ.mjs";
+import { _ as P } from "chunk-WJKXLTYC.mjs";
+import { a as E } from "chunk-W774OHJB.mjs";
+import { c as C, f as a, g as c } from "chunk-LTYGJUPU.mjs";
+import { b as y, c as U } from "chunk-KPMZENE5.mjs";
+import { e as T } from "chunk-WLHSDIGQ.mjs";
 var {
     onewayMethodTemplate: L,
     voidMethodTemplate: k,
@@ -145,7 +145,7 @@ function de(e, s) {
       (async () => {
         let p = !1,
           v = 0;
-        for (; !p; ) {
+        for (; !p;) {
           p = !0;
           try {
             let m = o.current,
@@ -177,4 +177,4 @@ function le(e) {
   y(e);
 }
 export { _ as a, D as b, F as c, de as d, le as e };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-HZAPIFPF.mjs.map
+//# sourceMappingURL=chunk-HZAPIFPF.mjs.map

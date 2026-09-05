@@ -23,4 +23,4 @@ function n() {
   throw Error("ServiceMap requested but not available");
 }
 export { a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-YRQ7G4QH.mjs.map
+//# sourceMappingURL=chunk-YRQ7G4QH.mjs.map

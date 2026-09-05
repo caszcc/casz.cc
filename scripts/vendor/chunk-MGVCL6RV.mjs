@@ -1,5 +1,5 @@
-import { a as d } from "./chunk-W774OHJB.mjs";
-import { e as u } from "./chunk-WLHSDIGQ.mjs";
+import { a as d } from "chunk-W774OHJB.mjs";
+import { e as u } from "chunk-WLHSDIGQ.mjs";
 var i = u(d());
 function h() {
   return { width: window.innerWidth, height: window.innerHeight };
@@ -43,4 +43,4 @@ function c(n = !0) {
   );
 }
 export { o as a, g as b, c };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-MGVCL6RV.mjs.map
+//# sourceMappingURL=chunk-MGVCL6RV.mjs.map

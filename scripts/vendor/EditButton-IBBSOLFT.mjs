@@ -11,7 +11,7 @@ import {
   p as Z,
   r as l,
   s as L,
-} from "./chunk-OHYXMHQF.mjs";
+} from "chunk-OHYXMHQF.mjs";
 var d = { x: 1, y: 0.5 },
   N = { x: 0, y: 0, transitionTime: 100 },
   ht = 50,
@@ -252,4 +252,4 @@ function kt() {
   return l("div", { id: G });
 }
 export { Wt as EditButton };
-//# sourceMappingURL=https://app.framerstatic.com/EditButton-IBBSOLFT.mjs.map
+//# sourceMappingURL=EditButton-IBBSOLFT.mjs.map

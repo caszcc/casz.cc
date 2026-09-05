@@ -1,5 +1,5 @@
-import { l as m } from "./chunk-NKL3YJZC.mjs";
-import { g as n } from "./chunk-VHFKZWVR.mjs";
+import { l as m } from "chunk-NKL3YJZC.mjs";
+import { g as n } from "chunk-VHFKZWVR.mjs";
 var t = n();
 function a(r, o, e, i) {
   m.isTest ||
@@ -12,4 +12,4 @@ function a(r, o, e, i) {
             performance.clearMeasures(r)))));
 }
 export { a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-IQI2NEUY.mjs.map
+//# sourceMappingURL=chunk-IQI2NEUY.mjs.map

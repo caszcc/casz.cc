@@ -221,7 +221,7 @@ var te,
           i = (e) =>
             (t = n ? new r(e, t, `An error was suppressed during disposal`) : ((n = !0), e)),
           a = (r) => {
-            for (; (r = e.pop()); )
+            for (; (r = e.pop());)
               try {
                 var o = r[1] && r[1].call(r[2]);
                 if (r[0]) return Promise.resolve(o).then(a, (e) => (i(e), a()));
@@ -530,7 +530,7 @@ function ot(e, t, n) {
 function st(e) {
   let t = 0,
     n = e.next(t);
-  for (; !n.done && t < 2e4; ) ((t += 50), (n = e.next(t)));
+  for (; !n.done && t < 2e4;) ((t += 50), (n = e.next(t)));
   return t >= 2e4 ? 1 / 0 : t;
 }
 function ct(e, t = 100, n) {
@@ -1204,7 +1204,7 @@ function yn(e) {
 function bn(e, t, n) {
   let r = 0,
     i;
-  for (; r < e.length && !i; ) {
+  for (; r < e.length && !i;) {
     let t = e[r];
     (typeof t == `string` && !xu.has(t) && Ge(t).values.length && (i = e[r]), r++);
   }
@@ -2516,16 +2516,14 @@ function xi({
         (this.isTransformDirty ||= t.isTransformDirty),
         (this.isSharedProjectionDirty ||= t.isSharedProjectionDirty));
       let n = !!this.resumingFrom || this !== t;
-      if (
-        !(
-          e ||
-          (n && this.isSharedProjectionDirty) ||
-          this.isProjectionDirty ||
-          this.parent?.isProjectionDirty ||
-          this.attemptToResolveRelativeTarget ||
-          this.root.updateBlockedByResize
-        )
-      )
+      if (!(
+        e ||
+        (n && this.isSharedProjectionDirty) ||
+        this.isProjectionDirty ||
+        this.parent?.isProjectionDirty ||
+        this.attemptToResolveRelativeTarget ||
+        this.root.updateBlockedByResize
+      ))
         return;
       let { layout: r, layoutId: i } = this.options;
       if (!this.layout || !(r || i)) return;
@@ -3517,7 +3515,7 @@ function Ra(e, t) {
   let n = e.length - 1,
     r = null,
     i = La(e);
-  for (; n >= 0 && ((r = e[n]), !(i.timestamp - r.timestamp > I(t))); ) n--;
+  for (; n >= 0 && ((r = e[n]), !(i.timestamp - r.timestamp > I(t)));) n--;
   if (!r) return { x: 0, y: 0 };
   r === e[0] && e.length > 2 && i.timestamp - r.timestamp > I(t) * 2 && (r = e[1]);
   let a = L(i.timestamp - r.timestamp);
@@ -3661,7 +3659,7 @@ function oo(e, t, n) {
 function so(e, t) {
   let n = { x: 0, y: 0 },
     r = e;
-  for (; r && r !== t; )
+  for (; r && r !== t;)
     if (Sn(r)) ((n.x += r.offsetLeft), (n.y += r.offsetTop), (r = r.offsetParent));
     else if (r.tagName === `svg`) {
       let e = r.getBoundingClientRect();
@@ -3673,7 +3671,7 @@ function so(e, t) {
       ((n.x += e), (n.y += t));
       let i = null,
         a = r.parentNode;
-      for (; !i; ) (a.tagName === `svg` && (i = a), (a = r.parentNode));
+      for (; !i;) (a.tagName === `svg` && (i = a), (a = r.parentNode));
       r = i;
     } else break;
   return n;
@@ -3735,7 +3733,7 @@ function fo(e, t, n) {
 function po(e, t = e, n) {
   if (((n.x.targetOffset = 0), (n.y.targetOffset = 0), t !== e)) {
     let r = t;
-    for (; r && r !== e; )
+    for (; r && r !== e;)
       ((n.x.targetOffset += r.offsetLeft), (n.y.targetOffset += r.offsetTop), (r = r.offsetParent));
   }
   ((n.x.targetLength = t === e ? t.scrollWidth : t.clientWidth),
@@ -4524,7 +4522,7 @@ function Cs(e, t) {
 }
 function ws(e, t) {
   let n = e?.parentElement;
-  for (; n; ) {
+  for (; n;) {
     if (Cs(n, t)) return n;
     n = n.parentElement;
   }
@@ -7462,7 +7460,7 @@ var ks,
         }
         startScrollTracking(e) {
           let t = e.parentElement;
-          for (; t; ) {
+          for (; t;) {
             let e = getComputedStyle(t);
             ((Df.has(e.overflowX) || Df.has(e.overflowY)) &&
               this.scrollPositions.set(t, { x: t.scrollLeft, y: t.scrollTop }),

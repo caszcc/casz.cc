@@ -1,7 +1,7 @@
-import { a as u } from "./chunk-C4JCSN7E.mjs";
-import { i as c, n as C } from "./chunk-LVHJNTCP.mjs";
-import { o as l } from "./chunk-EERSFQYH.mjs";
-import { c as o } from "./chunk-4JY5UMT2.mjs";
+import { a as u } from "chunk-C4JCSN7E.mjs";
+import { i as c, n as C } from "chunk-LVHJNTCP.mjs";
+import { o as l } from "chunk-EERSFQYH.mjs";
+import { c as o } from "chunk-4JY5UMT2.mjs";
 function O(e, r, s) {
   if (r) return "Viewing now";
   if (e.lastOpenedAt) {
@@ -65,4 +65,4 @@ function h(e, r) {
   return m(e) ? "viewer" : r && P(e) ? "contentCollaborator" : "collaborator";
 }
 export { O as a, w as b, P as c, x as d, p as e, y as f, g, R as h, f as i, E as j, h as k };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-KTNZAQRK.mjs.map
+//# sourceMappingURL=chunk-KTNZAQRK.mjs.map

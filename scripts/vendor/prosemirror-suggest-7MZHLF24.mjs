@@ -24,11 +24,11 @@ import {
   w,
   x,
   y,
-} from "./chunk-LQSJ3D3A.mjs";
-import "./chunk-FIJLBKPU.mjs";
-import "./chunk-6C6VSETA.mjs";
-import "./chunk-KYPY4QS7.mjs";
-import "./chunk-WLHSDIGQ.mjs";
+} from "chunk-LQSJ3D3A.mjs";
+import "chunk-FIJLBKPU.mjs";
+import "chunk-6C6VSETA.mjs";
+import "chunk-KYPY4QS7.mjs";
+import "chunk-WLHSDIGQ.mjs";
 export {
   b as ChangeReason,
   r as DEFAULT_SUGGESTER,
@@ -56,4 +56,4 @@ export {
   l as selectionOutsideMatch,
   y as suggest,
 };
-//# sourceMappingURL=https://app.framerstatic.com/prosemirror-suggest-7MZHLF24.mjs.map
+//# sourceMappingURL=prosemirror-suggest-7MZHLF24.mjs.map

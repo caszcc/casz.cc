@@ -1,5 +1,5 @@
-import { i as c } from "./chunk-LVHJNTCP.mjs";
-import { b as a } from "./chunk-4JY5UMT2.mjs";
+import { i as c } from "chunk-LVHJNTCP.mjs";
+import { b as a } from "chunk-4JY5UMT2.mjs";
 var s = {
     lessThanXSeconds: "{{count}}s",
     xSeconds: "{{count}}s",
@@ -32,4 +32,4 @@ function d(o, e) {
   return ((e = e || {}), c(o, { ...e, locale: { ...e.locale, formatDistance: i(e.justNow) } }));
 }
 export { d as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-C4JCSN7E.mjs.map
+//# sourceMappingURL=chunk-C4JCSN7E.mjs.map

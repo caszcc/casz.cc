@@ -19,4 +19,4 @@ function c(e) {
   return ((e.includes(":") || e.includes("/")) && (e = s.exec(e)?.[1] ?? ""), r.has(e));
 }
 export { a, c as b };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-HZLWYBUG.mjs.map
+//# sourceMappingURL=chunk-HZLWYBUG.mjs.map

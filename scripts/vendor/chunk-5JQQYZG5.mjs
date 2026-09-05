@@ -50,4 +50,4 @@ function y() {
   return h() + o() + o() + o() + o() + o() + o() + o() + o();
 }
 export { i as a, b, m as c, A as d, x as e, I as f, B as g, d as h, f as i, y as j };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-5JQQYZG5.mjs.map
+//# sourceMappingURL=chunk-5JQQYZG5.mjs.map

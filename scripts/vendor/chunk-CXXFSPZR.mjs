@@ -1,5 +1,5 @@
-import { a as Xn } from "./chunk-AYYBTPZU.mjs";
-import { a as TR, c as qc } from "./chunk-UYIYJ4FN.mjs";
+import { a as Xn } from "chunk-AYYBTPZU.mjs";
+import { a as TR, c as qc } from "chunk-UYIYJ4FN.mjs";
 import {
   $ as we,
   A as Q,
@@ -39,8 +39,8 @@ import {
   x as H,
   y as ge,
   z as Vr,
-} from "./chunk-WJKXLTYC.mjs";
-import { a as I, b as le } from "./chunk-XD24P57D.mjs";
+} from "chunk-WJKXLTYC.mjs";
+import { a as I, b as le } from "chunk-XD24P57D.mjs";
 import {
   $ as fH,
   $a as lW,
@@ -423,18 +423,18 @@ import {
   zd as C_,
   ze as SG,
   zf as mb,
-} from "./chunk-UUS4WEGC.mjs";
-import { g as gR, o as Gs } from "./chunk-EERSFQYH.mjs";
-import { a as Kd } from "./chunk-EYMNQYLM.mjs";
-import { a as Uc, b as _s } from "./chunk-WRBBN7SY.mjs";
-import { a as tp } from "./chunk-RNHTTH2C.mjs";
-import { a as jc } from "./chunk-6TFWVVAP.mjs";
-import { a as Je, b as Po, d as rp } from "./chunk-5WDLMAA7.mjs";
-import { b as bR } from "./chunk-YSP5ZHDJ.mjs";
-import { a as Ro } from "./chunk-UZNETSBG.mjs";
-import { b as Qn } from "./chunk-AYNVEX5D.mjs";
-import { a as SR } from "./chunk-KWIZ6NK4.mjs";
-import { a as R } from "./chunk-JTCAKYEM.mjs";
+} from "chunk-UUS4WEGC.mjs";
+import { g as gR, o as Gs } from "chunk-EERSFQYH.mjs";
+import { a as Kd } from "chunk-EYMNQYLM.mjs";
+import { a as Uc, b as _s } from "chunk-WRBBN7SY.mjs";
+import { a as tp } from "chunk-RNHTTH2C.mjs";
+import { a as jc } from "chunk-6TFWVVAP.mjs";
+import { a as Je, b as Po, d as rp } from "chunk-5WDLMAA7.mjs";
+import { b as bR } from "chunk-YSP5ZHDJ.mjs";
+import { a as Ro } from "chunk-UZNETSBG.mjs";
+import { b as Qn } from "chunk-AYNVEX5D.mjs";
+import { a as SR } from "chunk-KWIZ6NK4.mjs";
+import { a as R } from "chunk-JTCAKYEM.mjs";
 import {
   a as Yn,
   b as K,
@@ -446,9 +446,9 @@ import {
   o as hR,
   p as ep,
   s as yR,
-} from "./chunk-LA34HORX.mjs";
-import { a as w } from "./chunk-W774OHJB.mjs";
-import { b as me, c as Mt } from "./chunk-4JY5UMT2.mjs";
+} from "chunk-LA34HORX.mjs";
+import { a as w } from "chunk-W774OHJB.mjs";
+import { b as me, c as Mt } from "chunk-4JY5UMT2.mjs";
 import {
   A as QC,
   B as JC,
@@ -477,8 +477,8 @@ import {
   x as jd,
   y as XC,
   z as YC,
-} from "./chunk-VHFKZWVR.mjs";
-import { a as $C } from "./chunk-YRQ7G4QH.mjs";
+} from "chunk-VHFKZWVR.mjs";
+import { a as $C } from "chunk-YRQ7G4QH.mjs";
 import {
   c as Wd,
   d as HC,
@@ -490,7 +490,7 @@ import {
   j as zi,
   p as Oc,
   q as Fc,
-} from "./chunk-WLHSDIGQ.mjs";
+} from "chunk-WLHSDIGQ.mjs";
 var vw = Wd((Yp) => {
   "use strict";
   Object.defineProperty(Yp, "__esModule", { value: !0 });
@@ -5045,7 +5045,7 @@ function _P(e) {
   let t = 10,
     r = e.next(0),
     n = [r.value];
-  for (; !r.done && t < 1e4; ) ((r = e.next(t)), n.push(r.value), (t += 10));
+  for (; !r.done && t < 1e4;) ((r = e.next(t)), n.push(r.value), (t += 10));
   return (
     n.length === 1 && n.push(r.value),
     { easing: `linear(${n.join(",")})`, duration: t - 10 }
@@ -5729,8 +5729,8 @@ var GU = /[\s?#[\]@!$&'*+,;:="<>%{}|\\^`/]+/gu;
 function Kb(e) {
   let t = 0,
     r = e.length;
-  for (; t < r && e[t] === "-"; ) t++;
-  for (; r > t && e[r - 1] === "-"; ) r--;
+  for (; t < r && e[t] === "-";) t++;
+  for (; r > t && e[r - 1] === "-";) r--;
   return e.slice(t, r);
 }
 function sk(e) {
@@ -7026,7 +7026,7 @@ var aa = class {
       }
       if (((n = 0), (o = 1), (i = t), i < n)) return n;
       if (i > o) return o;
-      for (; n < o; ) {
+      for (; n < o;) {
         if (((a = this.sampleX(i)), Math.abs(a - t) < r)) return i;
         (t > a ? (n = i) : (o = i), (i = (o - n) * 0.5 + n));
       }
@@ -8727,7 +8727,7 @@ function Xw({ children: e }) {
 function Xj(e, t, r) {
   let n = t,
     o = n ? `${e}-${n}` : e;
-  for (; r.has(o); ) (n++, (o = `${e}-${n}`));
+  for (; r.has(o);) (n++, (o = `${e}-${n}`));
   return { layoutId: o, value: n };
 }
 function af({ enabled: e = !0, ...t }) {
@@ -10909,7 +10909,7 @@ function fV(e) {
 }
 function t3(e) {
   let t = 1;
-  for (; r3(t) < e; ) t++;
+  for (; r3(t) < e;) t++;
   return t;
 }
 function r3(e) {
@@ -15705,7 +15705,7 @@ function am(e, t = 2) {
   else return;
   if (Number.isInteger(r)) return r;
   let n = 1;
-  for (; t-- > 0; ) n *= 10;
+  for (; t-- > 0;) n *= 10;
   return (r < 0 && (n *= -1), Math.round(r * n) / n);
 }
 function bv(e) {
@@ -18108,7 +18108,7 @@ var ga = x(w(), 1);
 function tL(e, t) {
   let r = 0,
     n = e;
-  for (; n && n !== t && n instanceof HTMLElement; ) ((r += n.offsetTop), (n = n.offsetParent));
+  for (; n && n !== t && n instanceof HTMLElement;) ((r += n.offsetTop), (n = n.offsetParent));
   return r;
 }
 var B4 = 1;
@@ -18881,7 +18881,7 @@ var Lm = class {
     let r = this.events,
       n = r.length - 1,
       o = null;
-    for (; n >= 0 && ((o = r[n] ?? null), !(!o || Jr.time - o.loopTime > t)); ) n--;
+    for (; n >= 0 && ((o = r[n] ?? null), !(!o || Jr.time - o.loopTime > t));) n--;
     if (!o) return { x: 0, y: 0 };
     let i = r[r.length - 1];
     if (!i) return { x: 0, y: 0 };
@@ -19093,7 +19093,7 @@ function BL() {
   return Ku.default.useMemo(() => {
     if (!e) return;
     let r = e;
-    for (; r.parent && r.parent.level > 0; ) r = r.parent;
+    for (; r.parent && r.parent.level > 0;) r = r.parent;
     return r;
   }, [e]);
 }
@@ -19322,7 +19322,7 @@ function u6(e, t = "center") {
 var Hm = "data-framer-portal-id";
 function QL(e, t) {
   let r = document.elementFromPoint(e, t);
-  for (; r; ) {
+  for (; r;) {
     if (r === document.body) return;
     let n = r.getAttribute("data-framer-cursor");
     if (n) return n;
@@ -19985,7 +19985,7 @@ var Ci = x(R(), 1);
 function T6(e) {
   let t = e.current,
     r = { position: "absolute", scrolls: !1 };
-  for (; t; ) {
+  for (; t;) {
     if (
       t?.tagName === "BODY" ||
       (getComputedStyle(t)?.position === "fixed" && (r.position = "fixed"),
@@ -20829,7 +20829,7 @@ function $6() {
         s = "0".repeat(o),
         l = performance.now(),
         c = !0;
-      for (; c; ) {
+      for (; c;) {
         if (performance.now() - l > a) {
           ((c = !1), postMessage({ success: !1 }));
           return;
@@ -22460,7 +22460,7 @@ function yS(e, t, r) {
     o = null,
     { start: i, end: a } = yh(e),
     s = t.nextSibling;
-  for (; s && s !== r; ) {
+  for (; s && s !== r;) {
     if (s.nodeType !== Node.COMMENT_NODE) {
       s = s.nextSibling;
       continue;
@@ -22498,7 +22498,7 @@ ${d}`,
 function LK(e, t) {
   if (!e || !t) return;
   let r = e.nextSibling;
-  for (; r && r !== t; ) {
+  for (; r && r !== t;) {
     let n = r.nextSibling;
     (NK(r) && r.remove(), (r = n));
   }
@@ -23564,7 +23564,7 @@ async function ms(e, t, r = Rn.priority, n = Rn.canYield) {
       Fc(a, l, c);
     }
   }
-  for (; !i.done; ) {
+  for (; !i.done;) {
     var u = [];
     try {
       let m = await i.value;
@@ -24111,7 +24111,7 @@ function Rh(e, t) {
   }
   if (rd(e)) return e;
   if (VS(e)) {
-    for (; t; ) {
+    for (; t;) {
       let r = e.collectionByLocaleId[t.id];
       if (r) return r;
       t = t.fallback;
@@ -27572,7 +27572,7 @@ function R0(e) {
     if (US(n)) {
       let o = 0,
         i = n.name;
-      for (; !(r[i] === void 0 || r[i] === n.value); ) (o++, (i = `${n.name}::${o}`));
+      for (; !(r[i] === void 0 || r[i] === n.value);) (o++, (i = `${n.name}::${o}`));
       ((t += `$${i}`), (r[i] = n.value));
       continue;
     }
@@ -28955,7 +28955,7 @@ var TM = (e) =>
       let y = new AbortController();
       async function b() {
         let v = 0;
-        for (; !y.signal.aborted; ) {
+        for (; !y.signal.aborted;) {
           let S = a && l === "mirror",
             C = SM(v, S),
             T = SM(v + 1, S);
@@ -29007,7 +29007,7 @@ function RM(e, t, r, n) {
     l = VM(e, t, i) + 1,
     c = 0,
     u = !1;
-  for (; !u; ) {
+  for (; !u;) {
     let { start: d, end: p } = t[ti(0, t.length, l)],
       m = Math.floor(l / t.length) * i;
     ((c = d + m), p + m > a ? (u = !0) : l++);
@@ -29021,7 +29021,7 @@ function PM(e, t, r, n, o) {
     c = VM(e, t, a),
     u = e,
     d = !1;
-  for (; !d; ) {
+  for (; !d;) {
     let { start: p, end: f } = t[ti(0, t.length, c)],
       m = f - p,
       g = Math.floor(c / t.length) * a,
@@ -29060,7 +29060,7 @@ var IM = (e, t, r, n, o) => ({
     getCumulativeInset: (i) => {
       let a = 0,
         s = i;
-      for (; s; ) ((a += s[e]), (s = s.offsetParent));
+      for (; s;) ((a += s[e]), (s = s.offsetParent));
       return a;
     },
   }),
@@ -29082,7 +29082,7 @@ var u9 = {
   getCumulativeInset: (e) => {
     let t = 0,
       r = e;
-    for (; r; ) ((t += kM(r, r.offsetParent)), (r = r.offsetParent));
+    for (; r;) ((t += kM(r, r.offsetParent)), (r = r.offsetParent));
     return t;
   },
 };
@@ -29294,7 +29294,7 @@ function h9(e, t, r) {
     o = Math.max(...t.map(m9)),
     i = 0,
     a = 0;
-  for (; a < e; ) ((a = (n + r) * (i + 1) - o), i++);
+  for (; a < e;) ((a = (n + r) * (i + 1) - o), i++);
   return Math.max(i - 1, 0);
 }
 var y9 = { start: "flex-start", end: "flex-end" };
@@ -38099,7 +38099,7 @@ var yg = { mutable: !0, update: 0 },
       let t = this.tree();
       if (!t || !t.has(this.id)) throw Error("Only nodes in a tree have access to their parents.");
       let r = t.get(this.parentid);
-      for (; r; ) (yield r, (r = t.get(r.parentid)));
+      for (; r;) (yield r, (r = t.get(r.parentid)));
     }
     *fastWalk(t = {}) {
       let r = yZ(this);
@@ -38122,7 +38122,7 @@ var yg = { mutable: !0, update: 0 },
         next() {
           if (t) return ((t = !1), { value: n[0], done: !1 });
           if (r) return { value: void 0, done: !0 };
-          for (; !n[0].children || n[1] >= n[0].children.length; ) {
+          for (; !n[0].children || n[1] >= n[0].children.length;) {
             let a = o.pop();
             if (!a) return ((r = !0), { value: void 0, done: !0 });
             n = a;
@@ -38158,7 +38158,7 @@ function yZ(e) {
         let o = e.tree();
         if (!o) return !1;
         let i = e;
-        for (; i && !i.replicaInfo; ) i = o.get(i.parentid);
+        for (; i && !i.replicaInfo;) i = o.get(i.parentid);
         let a = i?.replicaInfo?.overrides[e.originalid];
         return !!(a && (Object.hasOwn(a, n) || a._deleted?.includes(n)));
       },
@@ -39030,7 +39030,7 @@ function FZ(e, t) {
   let r = Object.keys(e),
     n = r.length;
   if (n !== Object.keys(t).length) return !1;
-  for (let o = n; o-- !== 0; ) {
+  for (let o = n; o-- !== 0;) {
     let i = r[o];
     if (Ze(i) || e[i] != t[i]) return !1;
   }
@@ -39041,7 +39041,7 @@ function aXe(e, t) {
   let r = Object.keys(e),
     n = r.length;
   if (n !== Object.keys(t).length) return !1;
-  for (let o = n; o-- !== 0; ) {
+  for (let o = n; o-- !== 0;) {
     let i = r[o];
     if (Ze(i) || e[i] !== t[i]) return !1;
   }
@@ -40313,7 +40313,7 @@ function ate(e) {
     }
     for (let h = 0; h < p.childNodes.length; h++) {
       let g = p.childNodes[h];
-      for (; m < r && d(m, o); ) m++;
+      for (; m < r && d(m, o);) m++;
       (m === r && r++,
         me(m <= r, "richTextDocumentNormalization: table forming algorithm width error"));
       let y = Math.min(g.columnSpan || 1, 1e3),
@@ -40326,7 +40326,7 @@ function ate(e) {
     o += 1;
   }
   function s() {
-    for (; o < n; ) (l(), (o += 1));
+    for (; o < n;) (l(), (o += 1));
     i = [];
   }
   function l() {
@@ -40396,7 +40396,7 @@ function dte(e) {
 function pte(e, t) {
   let r = 0,
     n = !1;
-  for (; r < e.text.length; ) {
+  for (; r < e.text.length;) {
     let o = e.text.indexOf(
       `
 `,
@@ -42239,4 +42239,4 @@ react-is/cjs/react-is.production.min.js:
    * LICENSE file in the root directory of this source tree.
    *)
 */
-//# sourceMappingURL=https://app.framerstatic.com/chunk-CXXFSPZR.mjs.map
+//# sourceMappingURL=chunk-CXXFSPZR.mjs.map

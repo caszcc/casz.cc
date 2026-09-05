@@ -13,8 +13,8 @@ import {
   sn as G,
   ta as z,
   tk as w,
-} from "./chunk-CXXFSPZR.mjs";
-import { b as D } from "./chunk-4JY5UMT2.mjs";
+} from "chunk-CXXFSPZR.mjs";
+import { b as D } from "chunk-4JY5UMT2.mjs";
 function le(e) {
   if (Q(e)) return e.arrayMappingSourceVariable;
 }
@@ -157,4 +157,4 @@ function se(e, r) {
   };
 }
 export { le as a, Q as b, de as c, se as d };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-23TMXRFG.mjs.map
+//# sourceMappingURL=chunk-23TMXRFG.mjs.map

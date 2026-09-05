@@ -993,4 +993,4 @@ var a = e.blue60,
     borderSweepOverlayBorderAlpha: "20%",
   };
 export { t as a, e as b, W as c };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-A3ZGY5ZV.mjs.map
+//# sourceMappingURL=chunk-A3ZGY5ZV.mjs.map

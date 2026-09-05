@@ -194,4 +194,4 @@ export {
   re as G,
   ie as H,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-VHFKZWVR.mjs.map
+//# sourceMappingURL=chunk-VHFKZWVR.mjs.map

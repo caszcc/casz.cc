@@ -1,4 +1,4 @@
-import { b as ae } from "./chunk-4JY5UMT2.mjs";
+import { b as ae } from "chunk-4JY5UMT2.mjs";
 var we = "dependencies",
   Ie = "config",
   ue = `${Ie}/${we}`,
@@ -232,7 +232,7 @@ function H(e, t) {
 }
 function ve(e, t) {
   if (t in e)
-    for (var n = Object.getPrototypeOf(e); n; ) {
+    for (var n = Object.getPrototypeOf(e); n;) {
       var r = Object.getOwnPropertyDescriptor(n, t);
       if (r) return r;
       n = Object.getPrototypeOf(n);
@@ -663,7 +663,7 @@ function ke() {
           return this.values();
         }),
         (u.forEach = function (o, a) {
-          for (var l = this.values(), d = l.next(); !d.done; )
+          for (var l = this.values(), d = l.next(); !d.done;)
             (o.call(a, d.value, d.value, this), (d = l.next()));
         }),
         s
@@ -1048,4 +1048,4 @@ export {
   ut as q,
   ct as r,
 };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-GXCNATQC.mjs.map
+//# sourceMappingURL=chunk-GXCNATQC.mjs.map

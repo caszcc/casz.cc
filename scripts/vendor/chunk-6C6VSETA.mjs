@@ -9,7 +9,7 @@ import {
   u as C,
   v as D,
   w as St,
-} from "./chunk-KYPY4QS7.mjs";
+} from "chunk-KYPY4QS7.mjs";
 var S = function (t) {
     for (var e = 0; ; e++) if (((t = t.previousSibling), !t)) return e;
   },
@@ -30,7 +30,7 @@ var S = function (t) {
   },
   Bn = /^(img|br|input|textarea|hr)$/i;
 function Ct(t, e, n, o, i) {
-  for (var s; ; ) {
+  for (var s; ;) {
     if (t == n && e == o) return !0;
     if (e == (i < 0 ? 0 : R(t))) {
       let r = t.parentNode;
@@ -70,7 +70,7 @@ function Fn(t, e) {
   }
 }
 function zn(t, e, n) {
-  for (let o = e == 0, i = e == R(t); o || i; ) {
+  for (let o = e == 0, i = e == R(t); o || i;) {
     if (t == n) return !0;
     let s = S(t);
     if (((t = t.parentNode), !t)) return !1;
@@ -91,7 +91,7 @@ function ee(t, e) {
 }
 function Ln(t) {
   let e = t.activeElement;
-  for (; e && e.shadowRoot; ) e = e.shadowRoot.activeElement;
+  for (; e && e.shadowRoot;) e = e.shadowRoot.activeElement;
   return e;
 }
 function $n(t, e, n) {
@@ -154,7 +154,7 @@ function Mt(t, e, n) {
   let o = t.someProp("scrollThreshold") || 0,
     i = t.someProp("scrollMargin") || 5,
     s = t.dom.ownerDocument;
-  for (let r = n || t.dom; r; ) {
+  for (let r = n || t.dom; r;) {
     if (r.nodeType != 1) {
       r = he(r);
       continue;
@@ -321,7 +321,7 @@ function Xn(t, e, n) {
 }
 function Jn(t, e, n, o) {
   let i = -1;
-  for (let s = e, r = !1; s != t.dom; ) {
+  for (let s = e, r = !1; s != t.dom;) {
     let l = t.docView.nearestDesc(s, !0),
       a;
     if (!l) return null;
@@ -474,7 +474,7 @@ function an(t, e, n) {
   }
   if (s == null && i < R(o)) {
     let a = o.childNodes[i];
-    for (; a.pmViewDesc && a.pmViewDesc.ignoreForCoords; ) a = a.nextSibling;
+    for (; a.pmViewDesc && a.pmViewDesc.ignoreForCoords;) a = a.nextSibling;
     let c = a ? (a.nodeType == 3 ? K(a, 0, r ? 0 : 1) : a.nodeType == 1 ? a : null) : null;
     if (c) return ye(U(c, -1), !0);
   }
@@ -642,19 +642,19 @@ var I = 0,
           let s, r;
           if (e == this.contentDOM) s = e.childNodes[n - 1];
           else {
-            for (; e.parentNode != this.contentDOM; ) e = e.parentNode;
+            for (; e.parentNode != this.contentDOM;) e = e.parentNode;
             s = e.previousSibling;
           }
-          for (; s && !((r = s.pmViewDesc) && r.parent == this); ) s = s.previousSibling;
+          for (; s && !((r = s.pmViewDesc) && r.parent == this);) s = s.previousSibling;
           return s ? this.posBeforeChild(r) + r.size : this.posAtStart;
         } else {
           let s, r;
           if (e == this.contentDOM) s = e.childNodes[n];
           else {
-            for (; e.parentNode != this.contentDOM; ) e = e.parentNode;
+            for (; e.parentNode != this.contentDOM;) e = e.parentNode;
             s = e.nextSibling;
           }
-          for (; s && !((r = s.pmViewDesc) && r.parent == this); ) s = s.nextSibling;
+          for (; s && !((r = s.pmViewDesc) && r.parent == this);) s = s.nextSibling;
           return s ? this.posBeforeChild(r) : this.posAtEnd;
         }
       let i;
@@ -711,7 +711,7 @@ var I = 0,
         let i = this.children[n],
           s = o + i.size;
         if (o == e && s != o) {
-          for (; !i.border && i.children.length; )
+          for (; !i.border && i.children.length;)
             for (let r = 0; r < i.children.length; r++) {
               let l = i.children[r];
               if (l.size) {
@@ -1031,7 +1031,7 @@ var I = 0,
     markDirty(e, n) {
       if ((super.markDirty(e, n), this.dirty != I)) {
         let o = this.parent;
-        for (; !o.node; ) o = o.parent;
+        for (; !o.node;) o = o.parent;
         (o.dirty < this.dirty && (o.dirty = this.dirty), (this.dirty = I));
       }
     }
@@ -1183,8 +1183,8 @@ var I = 0,
       if (this.getDesc(n)) return;
       let s = n;
       for (; s.parentNode != this.contentDOM; s = s.parentNode) {
-        for (; s.previousSibling; ) s.parentNode.removeChild(s.previousSibling);
-        for (; s.nextSibling; ) s.parentNode.removeChild(s.nextSibling);
+        for (; s.previousSibling;) s.parentNode.removeChild(s.previousSibling);
+        for (; s.nextSibling;) s.parentNode.removeChild(s.nextSibling);
         s.pmViewDesc && (s.pmViewDesc = void 0);
       }
       let r = new Je(this, s, n, i);
@@ -1240,7 +1240,7 @@ var Ae = class t extends J {
     }
     parseRule() {
       let e = this.nodeDOM.parentNode;
-      for (; e && e != this.dom && !e.pmIsDeco; ) e = e.parentNode;
+      for (; e && e != this.dom && !e.pmIsDeco;) e = e.parentNode;
       return { skip: e || !0 };
     }
     update(e, n, o, i) {
@@ -1342,7 +1342,7 @@ function dn(t, e, n) {
     let r = e[s],
       l = r.dom;
     if (l.parentNode == t) {
-      for (; l != o; ) ((o = Vt(o)), (i = !0));
+      for (; l != o;) ((o = Vt(o)), (i = !0));
       o = o.nextSibling;
     } else ((i = !0), t.insertBefore(l, o));
     if (r instanceof pe) {
@@ -1350,7 +1350,7 @@ function dn(t, e, n) {
       (dn(r.contentDOM, r.children, n), (o = a ? a.nextSibling : t.firstChild));
     }
   }
-  for (; o; ) ((o = Vt(o)), (i = !0));
+  for (; o;) ((o = Vt(o)), (i = !0));
   i && n.trackWrites == t && (n.trackWrites = null);
 }
 var be = function (t) {
@@ -1419,7 +1419,7 @@ function no(t, e, n) {
     if (e.style) {
       let o = /\s*([\w\-\xa1-\uffff]+)\s*:(?:"(?:\\.|[^"])*"|'(?:\\.|[^'])*'|\(.*?\)|[^;])*/g,
         i;
-      for (; (i = o.exec(e.style)); ) t.style.removeProperty(i[1]);
+      for (; (i = o.exec(e.style));) t.style.removeProperty(i[1]);
     }
     n.style && (t.style.cssText += n.style);
   }
@@ -1466,13 +1466,13 @@ var we = class {
       e[i].type.spec.spanning !== !1;
     )
       i++;
-    for (; i < s; )
+    for (; i < s;)
       (this.destroyRest(),
         (this.top.dirty = I),
         (this.index = this.stack.pop()),
         (this.top = this.stack.pop()),
         s--);
-    for (; s < e.length; ) {
+    for (; s < e.length;) {
       this.stack.push(this.top, this.index + 1);
       let l = -1;
       for (let a = this.index; a < Math.min(this.index + 3, this.top.children.length); a++) {
@@ -1606,7 +1606,7 @@ var we = class {
   addTextblockHacks() {
     let e = this.top.children[this.index - 1],
       n = this.top;
-    for (; e instanceof pe; ) ((n = e), (e = n.children[n.children.length - 1]));
+    for (; e instanceof pe;) ((n = e), (e = n.children[n.children.length - 1]));
     (!e ||
       !(e instanceof Ae) ||
       /\n$/.test(e.node.text) ||
@@ -1636,7 +1636,7 @@ function oo(t, e) {
     i = t.childCount,
     s = new Map(),
     r = [];
-  e: for (; i > 0; ) {
+  e: for (; i > 0;) {
     let l;
     for (;;)
       if (o) {
@@ -1674,9 +1674,9 @@ function so(t, e, n, o) {
   let r = 0,
     l = [],
     a = null;
-  for (let c = 0; ; ) {
+  for (let c = 0; ;) {
     let d, f;
-    for (; r < i.length && i[r].to == s; ) {
+    for (; r < i.length && i[r].to == s;) {
       let m = i[r++];
       m.widget && (d ? (f || (f = [d])).push(m) : (d = m));
     }
@@ -1690,14 +1690,14 @@ function so(t, e, n, o) {
     else if (c < t.childCount) ((p = c), (u = t.child(c++)));
     else break;
     for (let m = 0; m < l.length; m++) l[m].to <= s && l.splice(m--, 1);
-    for (; r < i.length && i[r].from <= s && i[r].to > s; ) l.push(i[r++]);
+    for (; r < i.length && i[r].from <= s && i[r].to > s;) l.push(i[r++]);
     let h = s + u.nodeSize;
     if (u.isText) {
       let m = h;
       r < i.length && i[r].from < m && (m = i[r].from);
       for (let y = 0; y < l.length; y++) l[y].to < m && (m = l[y].to);
       m < h && ((a = u.cut(m - s)), (u = u.cut(0, m - s)), (h = m), (p = -1));
-    } else for (; r < i.length && i[r].to < h; ) r++;
+    } else for (; r < i.length && i[r].to < h;) r++;
     let g = u.isInline && !u.isLeaf ? l.filter((m) => !m.inline) : l.slice();
     (o(u, g, e.forChild(s, u), p), (s = h));
   }
@@ -1711,12 +1711,12 @@ function ro(t) {
   }
 }
 function lo(t, e, n, o) {
-  for (let i = 0, s = 0; i < t.childCount && s <= o; ) {
+  for (let i = 0, s = 0; i < t.childCount && s <= o;) {
     let r = t.child(i++),
       l = s;
     if (((s += r.nodeSize), !r.isText)) continue;
     let a = r.text;
-    for (; i < t.childCount; ) {
+    for (; i < t.childCount;) {
       let c = t.child(i++);
       if (((s += c.nodeSize), !c.isText)) break;
       a += c.text;
@@ -1756,7 +1756,7 @@ function ft(t, e = null) {
     a,
     c;
   if (Le(n)) {
-    for (a = r; i && !i.node; ) i = i.parent;
+    for (a = r; i && !i.node;) i = i.parent;
     let f = i.node;
     if (
       i &&
@@ -1977,7 +1977,7 @@ function ho(t) {
   let i,
     s,
     r = !1;
-  for (B && n.nodeType == 1 && o < Re(n) && De(n.childNodes[o], -1) && (r = !0); ; )
+  for (B && n.nodeType == 1 && o < Re(n) && De(n.childNodes[o], -1) && (r = !0); ;)
     if (o > 0) {
       if (n.nodeType != 1) break;
       {
@@ -1990,7 +1990,7 @@ function ho(t) {
       if (gn(n)) break;
       {
         let l = n.previousSibling;
-        for (; l && De(l, -1); ) ((i = n.parentNode), (s = S(l)), (l = l.previousSibling));
+        for (; l && De(l, -1);) ((i = n.parentNode), (s = S(l)), (l = l.previousSibling));
         if (l) ((n = l), (o = Re(n)));
         else {
           if (((n = n.parentNode), n == t.dom)) break;
@@ -2018,7 +2018,7 @@ function uo(t) {
       if (gn(n)) break;
       {
         let l = n.nextSibling;
-        for (; l && De(l, 1); ) ((s = l.parentNode), (r = S(l) + 1), (l = l.nextSibling));
+        for (; l && De(l, 1);) ((s = l.parentNode), (r = S(l) + 1), (l = l.nextSibling));
         if (l) ((n = l), (o = 0), (i = Re(n)));
         else {
           if (((n = n.parentNode), n == t.dom)) break;
@@ -2033,8 +2033,8 @@ function gn(t) {
   return e && e.node && e.node.isBlock;
 }
 function po(t, e) {
-  for (; t && e == t.childNodes.length && !Me(t); ) ((e = S(t) + 1), (t = t.parentNode));
-  for (; t && e < t.childNodes.length; ) {
+  for (; t && e == t.childNodes.length && !Me(t);) ((e = S(t) + 1), (t = t.parentNode));
+  for (; t && e < t.childNodes.length;) {
     let n = t.childNodes[e];
     if (n.nodeType == 3) return n;
     if (n.nodeType == 1 && n.contentEditable == "false") break;
@@ -2042,8 +2042,8 @@ function po(t, e) {
   }
 }
 function mo(t, e) {
-  for (; t && !e && !Me(t); ) ((e = S(t)), (t = t.parentNode));
-  for (; t && e; ) {
+  for (; t && !e && !Me(t);) ((e = S(t)), (t = t.parentNode));
+  for (; t && e;) {
     let n = t.childNodes[e - 1];
     if (n.nodeType == 3) return n;
     if (n.nodeType == 1 && n.contentEditable == "false") break;
@@ -2165,7 +2165,7 @@ function ut(t, e) {
   });
   let n = [],
     { content: o, openStart: i, openEnd: s } = e;
-  for (; i > 1 && s > 1 && o.childCount == 1 && o.firstChild.childCount == 1; ) {
+  for (; i > 1 && s > 1 && o.childCount == 1 && o.firstChild.childCount == 1;) {
     (i--, s--);
     let p = o.firstChild;
     (n.push(p.type.name, p.attrs != p.type.defaultAttrs ? p.attrs : null), (o = p.content));
@@ -2177,10 +2177,10 @@ function ut(t, e) {
   let c = a.firstChild,
     d,
     f = 0;
-  for (; c && c.nodeType == 1 && (d = Nn[c.nodeName.toLowerCase()]); ) {
+  for (; c && c.nodeType == 1 && (d = Nn[c.nodeName.toLowerCase()]);) {
     for (let p = d.length - 1; p >= 0; p--) {
       let h = l.createElement(d[p]);
-      for (; a.firstChild; ) h.appendChild(a.firstChild);
+      for (; a.firstChild;) h.appendChild(a.firstChild);
       (a.appendChild(h), f++);
     }
     c = a.firstChild;
@@ -2254,7 +2254,7 @@ function pt(t, e, n, o, i) {
   if (d && d[3])
     for (let f = +d[3]; f > 0; f--) {
       let u = r.firstChild;
-      for (; u && u.nodeType != 1; ) u = u.nextSibling;
+      for (; u && u.nodeType != 1;) u = u.nextSibling;
       if (!u) break;
       r = u;
     }
@@ -2787,7 +2787,7 @@ T.compositionstart = T.compositionupdate = (t) => {
       B && e.selection.empty && n.parentOffset && !n.textOffset && n.nodeBefore.marks.length)
     ) {
       let o = t.domSelectionRange();
-      for (let i = o.focusNode, s = o.focusOffset; i && i.nodeType == 1 && s != 0; ) {
+      for (let i = o.focusNode, s = o.focusOffset; i && i.nodeType == 1 && s != 0;) {
         let r = s < 0 ? i.lastChild : i.childNodes[s - 1];
         if (!r) break;
         if (r.nodeType == 3) {
@@ -3210,7 +3210,7 @@ var Ie = class t {
         let c = a + o,
           d;
         if ((d = An(n, l, c))) {
-          for (i || (i = this.children.slice()); s < i.length && i[s] < a; ) s += 3;
+          for (i || (i = this.children.slice()); s < i.length && i[s] < a;) s += 3;
           (i[s] == a
             ? (i[s + 2] = i[s + 2].addInner(l, d, c + 1))
             : i.splice(s, 0, a, a + l.nodeSize, ze(d, l, c + 1, ie)),
@@ -3407,7 +3407,7 @@ function jo(t, e, n, o, i, s, r) {
     for (let f = 0; f < l.length; f += 3) l[f + 1] < 0 && (l.splice(f, 3), (f -= 3));
     for (let f = 0, u = 0; f < d.children.length; f += 3) {
       let p = d.children[f];
-      for (; u < l.length && l[u] < p; ) u += 3;
+      for (; u < l.length && l[u] < p;) u += 3;
       l.splice(u, 0, d.children[f], d.children[f + 1], d.children[f + 2]);
     }
   }
@@ -3490,7 +3490,7 @@ function bt(t) {
   return e;
 }
 function jt(t, e, n) {
-  for (; e < t.length && se(n, t[e]) > 0; ) e++;
+  for (; e < t.length && se(n, t[e]) > 0;) e++;
   t.splice(e, 0, n);
 }
 function _e(t) {
@@ -4054,10 +4054,10 @@ function ni(t, e, n, o, i) {
 function je(t, e, n) {
   let o = t.depth,
     i = e ? t.end() : t.pos;
-  for (; o > 0 && (e || t.indexAfter(o) == t.node(o).childCount); ) (o--, i++, (e = !1));
+  for (; o > 0 && (e || t.indexAfter(o) == t.node(o).childCount);) (o--, i++, (e = !1));
   if (n) {
     let s = t.node(o).maybeChild(t.indexAfter(o));
-    for (; s && !s.isLeaf; ) ((s = s.firstChild), i++);
+    for (; s && !s.isLeaf;) ((s = s.firstChild), i++);
   }
   return i;
 }
@@ -4232,7 +4232,7 @@ var ci = pt,
     }
     destroyPluginViews() {
       let e;
-      for (; (e = this.pluginViews.pop()); ) e.destroy && e.destroy();
+      for (; (e = this.pluginViews.pop());) e.destroy && e.destroy();
     }
     updatePluginViews(e) {
       if (!e || e.plugins != this.state.plugins || this.directPlugins != this.prevDirectPlugins) {
@@ -4281,7 +4281,7 @@ var ci = pt,
         let e = this.root.activeElement;
         if (e == this.dom) return !0;
         if (!e || !this.dom.contains(e)) return !1;
-        for (; e && this.dom != e && this.dom.contains(e); ) {
+        for (; e && this.dom != e && this.dom.contains(e);) {
           if (e.contentEditable == "false") return !1;
           e = e.parentElement;
         }
@@ -4432,4 +4432,4 @@ function en(t) {
     throw new RangeError("Plugins passed directly to the view must not have a state component");
 }
 export { Z as a, F as b, ci as c, di as d, ct as e };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-6C6VSETA.mjs.map
+//# sourceMappingURL=chunk-6C6VSETA.mjs.map

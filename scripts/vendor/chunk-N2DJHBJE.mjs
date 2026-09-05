@@ -1,4 +1,4 @@
-import { d as o } from "./chunk-VHFKZWVR.mjs";
+import { d as o } from "chunk-VHFKZWVR.mjs";
 var n;
 ((p) => {
   function u(t) {
@@ -29,4 +29,4 @@ var n;
   p.isLeftMouseButtonDown = c;
 })((n ||= {}));
 export { n as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-N2DJHBJE.mjs.map
+//# sourceMappingURL=chunk-N2DJHBJE.mjs.map

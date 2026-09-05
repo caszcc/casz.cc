@@ -1,4 +1,4 @@
-import { y as p } from "./chunk-KYPY4QS7.mjs";
+import { y as p } from "chunk-KYPY4QS7.mjs";
 var l = {
     8: "Backspace",
     9: "Tab",
@@ -172,4 +172,4 @@ function C(r) {
   };
 }
 export { l as a, y as b, d as c, E as d, C as e };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-FYUJQV6J.mjs.map
+//# sourceMappingURL=chunk-FYUJQV6J.mjs.map

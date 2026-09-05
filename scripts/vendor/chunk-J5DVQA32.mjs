@@ -1,4 +1,4 @@
-import { h as A, y as x, z as C } from "./chunk-KYPY4QS7.mjs";
+import { h as A, y as x, z as C } from "chunk-KYPY4QS7.mjs";
 var y = 200,
   u = function () {};
 u.prototype.append = function (e) {
@@ -502,4 +502,4 @@ function q(i) {
   return e ? e.undone.eventCount : 0;
 }
 export { J as a, Q as b, R as c, U as d, X as e, Y as f, $ as g, q as h };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-J5DVQA32.mjs.map
+//# sourceMappingURL=chunk-J5DVQA32.mjs.map

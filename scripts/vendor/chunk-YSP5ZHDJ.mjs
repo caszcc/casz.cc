@@ -64,4 +64,4 @@ function g(t) {
 }
 var v = g;
 export { a, y as b, v as c };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-YSP5ZHDJ.mjs.map
+//# sourceMappingURL=chunk-YSP5ZHDJ.mjs.map

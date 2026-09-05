@@ -22,4 +22,4 @@ function l(e) {
     `;
 }
 export { i as a, u as b, l as c };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-ISW56VHA.mjs.map
+//# sourceMappingURL=chunk-ISW56VHA.mjs.map

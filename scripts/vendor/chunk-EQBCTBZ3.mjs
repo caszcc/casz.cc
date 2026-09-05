@@ -16,4 +16,4 @@ function i(e) {
   } else return { channel: n };
 }
 export { i as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-EQBCTBZ3.mjs.map
+//# sourceMappingURL=chunk-EQBCTBZ3.mjs.map

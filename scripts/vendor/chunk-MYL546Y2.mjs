@@ -11,4 +11,4 @@ function r(e) {
   return t;
 }
 export { r as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-MYL546Y2.mjs.map
+//# sourceMappingURL=chunk-MYL546Y2.mjs.map

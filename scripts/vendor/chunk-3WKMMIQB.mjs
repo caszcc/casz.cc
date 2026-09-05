@@ -1,4 +1,4 @@
-import { c as r } from "./chunk-WLHSDIGQ.mjs";
+import { c as r } from "chunk-WLHSDIGQ.mjs";
 var e = r((K, f) => {
   "use strict";
   var m = function (u) {
@@ -143,4 +143,4 @@ var J = r(($, x) => {
   x.exports = Z;
 });
 export { e as a, s as b, h as c, J as d };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-3WKMMIQB.mjs.map
+//# sourceMappingURL=chunk-3WKMMIQB.mjs.map

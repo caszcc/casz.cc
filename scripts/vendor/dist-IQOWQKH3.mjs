@@ -1,6 +1,6 @@
-import { a, b, c, d, e, f, g, h, i, j } from "./chunk-YE4QPCYK.mjs";
-import "./chunk-KYPY4QS7.mjs";
-import "./chunk-WLHSDIGQ.mjs";
+import { a, b, c, d, e, f, g, h, i, j } from "chunk-YE4QPCYK.mjs";
+import "chunk-KYPY4QS7.mjs";
+import "chunk-WLHSDIGQ.mjs";
 export {
   d as addListNodes,
   b as bulletList,
@@ -13,4 +13,4 @@ export {
   e as wrapInList,
   f as wrapRangeInList,
 };
-//# sourceMappingURL=https://app.framerstatic.com/dist-IQOWQKH3.mjs.map
+//# sourceMappingURL=dist-IQOWQKH3.mjs.map

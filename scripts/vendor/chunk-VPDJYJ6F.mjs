@@ -142,7 +142,7 @@ var J = class {
         : ((this.state = Q.NumericDecimal), this.stateNumericDecimal(I, g));
   }
   stateNumericHex(I, g) {
-    for (; g < I.length; ) {
+    for (; g < I.length;) {
       let B = I.charCodeAt(g);
       if (Y(B) || y(B)) {
         let C = B <= c.NINE ? B - c.ZERO : (B | e) - c.LOWER_A + 10;
@@ -152,7 +152,7 @@ var J = class {
     return -1;
   }
   stateNumericDecimal(I, g) {
-    for (; g < I.length; ) {
+    for (; g < I.length;) {
       let B = I.charCodeAt(g);
       if (Y(B)) ((this.result = this.result * 10 + (B - c.ZERO)), this.consumed++, g++);
       else return this.emitNumericEntity(B, 2);
@@ -176,7 +176,7 @@ var J = class {
     let { decodeTree: B } = this,
       C = B[this.treeIndex],
       i = (C & o.VALUE_LENGTH) >> 14;
-    for (; g < I.length; ) {
+    for (; g < I.length;) {
       if (i === 0 && (C & o.FLAG13) !== 0) {
         let K = (C & o.BRANCH_LENGTH) >> 7;
         if (this.runConsumed === 0) {
@@ -185,7 +185,7 @@ var J = class {
             return this.result === 0 ? 0 : this.emitNotTerminatedNamedEntity();
           (g++, this.excess++, this.runConsumed++);
         }
-        for (; this.runConsumed < K; ) {
+        for (; this.runConsumed < K;) {
           if (g >= I.length) return -1;
           let D = this.runConsumed - 1,
             h = B[this.treeIndex + 1 + (D >> 1)],
@@ -267,7 +267,7 @@ function H(A, I, g, B) {
   let F = (C + 1) >> 1,
     K = 0,
     D = C - 1;
-  for (; K <= D; ) {
+  for (; K <= D;) {
     let h = (K + D) >>> 1,
       t = h >> 1,
       d = (A[g + t] >> ((h & 1) * 8)) & 255;
@@ -278,4 +278,4 @@ function H(A, I, g, B) {
   return -1;
 }
 export { E as a, Z as b, w as c, J as d };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-VPDJYJ6F.mjs.map
+//# sourceMappingURL=chunk-VPDJYJ6F.mjs.map

@@ -16,4 +16,4 @@ var c = function () {
   },
   u = c;
 export { u as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-QFU6OGL3.mjs.map
+//# sourceMappingURL=chunk-QFU6OGL3.mjs.map

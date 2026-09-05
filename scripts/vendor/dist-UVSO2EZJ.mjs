@@ -1,5 +1,5 @@
-import { p as v, y as C } from "./chunk-KYPY4QS7.mjs";
-import "./chunk-WLHSDIGQ.mjs";
+import { p as v, y as C } from "chunk-KYPY4QS7.mjs";
+import "chunk-WLHSDIGQ.mjs";
 function V(g = {}) {
   return new C({
     view(e) {
@@ -121,4 +121,4 @@ var m = class {
   }
 };
 export { V as dropCursor };
-//# sourceMappingURL=https://app.framerstatic.com/dist-UVSO2EZJ.mjs.map
+//# sourceMappingURL=dist-UVSO2EZJ.mjs.map

@@ -11,4 +11,4 @@ function o(e, r) {
   t.forEach((n) => n(e, r));
 }
 export { i as a, o as b };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-AUNF3KWQ.mjs.map
+//# sourceMappingURL=chunk-AUNF3KWQ.mjs.map

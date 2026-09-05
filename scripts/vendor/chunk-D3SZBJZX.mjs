@@ -3,4 +3,4 @@ async function r(t, n, o) {
   return new File([e], n, { type: e.type });
 }
 export { r as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-D3SZBJZX.mjs.map
+//# sourceMappingURL=chunk-D3SZBJZX.mjs.map

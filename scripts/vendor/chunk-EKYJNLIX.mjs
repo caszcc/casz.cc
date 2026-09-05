@@ -1,4 +1,4 @@
-import { c as E, e as Q } from "./chunk-WLHSDIGQ.mjs";
+import { c as E, e as Q } from "chunk-WLHSDIGQ.mjs";
 var V = E((k) => {
   "use strict";
   Object.defineProperty(k, "__esModule", { value: !0 });
@@ -28,7 +28,7 @@ var M = E((h) => {
                 : "https://cdn.jsdelivr.net/gh/jdecked/twemoji@latest/assets/svg/" + p + ".svg";
             },
       o = [];
-    for (I.default.lastIndex = 0; ; ) {
+    for (I.default.lastIndex = 0; ;) {
       var v = I.default.exec(f);
       if (!v) break;
       var y = v[0],
@@ -43,7 +43,7 @@ var M = E((h) => {
       return c.indexOf(cd) < 0 ? c.replace(fd, "") : c;
     };
   function L(f) {
-    for (var c = [], e = 0, n = 0, o = 0; o < f.length; )
+    for (var c = [], e = 0, n = 0, o = 0; o < f.length;)
       ((e = f.charCodeAt(o++)),
         n
           ? (c.push((65536 + ((n - 55296) << 10) + (e - 56320)).toString(16)), (n = 0))
@@ -87,7 +87,7 @@ var X = (function () {
       return "".concat(d.base, d.size, "/", u, d.ext);
     }
     function F(u, d) {
-      for (var r = u.childNodes, b = r.length, a, t; b--; )
+      for (var r = u.childNodes, b = r.length, a, t; b--;)
         ((a = r[b]),
           (t = a.nodeType),
           t === 3
@@ -99,7 +99,7 @@ var X = (function () {
       return A(u.indexOf(o) < 0 ? u.replace(n, "") : u);
     }
     function R(u, d) {
-      for (var r = F(u, []), b = r.length, a, t, l, i, C, j, O, g, N, s, m, P, T; b--; ) {
+      for (var r = F(u, []), b = r.length, a, t, l, i, C, j, O, g, N, s, m, P, T; b--;) {
         for (
           l = !1, i = document.createDocumentFragment(), C = r[b], j = C.nodeValue, g = 0;
           (O = e.exec(j));
@@ -197,7 +197,7 @@ var X = (function () {
       return ((e.lastIndex = 0), d);
     }
     function A(u, d) {
-      for (var r = [], b = 0, a = 0, t = 0; t < u.length; )
+      for (var r = [], b = 0, a = 0, t = 0; t < u.length;)
         ((b = u.charCodeAt(t++)),
           a
             ? (r.push((65536 + ((a - 55296) << 10) + (b - 56320)).toString(16)), (a = 0))
@@ -243,4 +243,4 @@ export { bd as a, id as b, sd as c, ld as d };
 @twemoji/api/dist/twemoji.esm.js:
   (*! Copyright Twitter Inc. and other contributors. Licensed under MIT *)
 */
-//# sourceMappingURL=https://app.framerstatic.com/chunk-EKYJNLIX.mjs.map
+//# sourceMappingURL=chunk-EKYJNLIX.mjs.map

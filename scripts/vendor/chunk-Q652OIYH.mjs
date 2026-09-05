@@ -19,4 +19,4 @@ function c() {
   return /\{\{([^\s}]+)\|?/gu;
 }
 export { p as a, u as b, c };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-Q652OIYH.mjs.map
+//# sourceMappingURL=chunk-Q652OIYH.mjs.map

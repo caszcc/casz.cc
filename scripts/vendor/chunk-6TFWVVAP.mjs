@@ -3,4 +3,4 @@ function e() {
   return r;
 }
 export { e as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-6TFWVVAP.mjs.map
+//# sourceMappingURL=chunk-6TFWVVAP.mjs.map

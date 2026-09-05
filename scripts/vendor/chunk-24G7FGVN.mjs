@@ -26,4 +26,4 @@ var t = class extends Promise {
 };
 t.prototype.constructor = Promise;
 export { t as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-24G7FGVN.mjs.map
+//# sourceMappingURL=chunk-24G7FGVN.mjs.map

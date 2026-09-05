@@ -1,5 +1,5 @@
-import { a as i, d as m } from "./chunk-5JQQYZG5.mjs";
-import { b as t } from "./chunk-4JY5UMT2.mjs";
+import { a as i, d as m } from "chunk-5JQQYZG5.mjs";
+import { b as t } from "chunk-4JY5UMT2.mjs";
 var u = 2 ** 32 - 1,
   a = 10,
   o = u - a,
@@ -18,4 +18,4 @@ function l(r, e) {
   return (t(f(n), () => `invalid clientId derived for ${r}:${e}: ${n}`), n);
 }
 export { d as a, N as b, f as c, b as d, l as e };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-Y7I3OVO3.mjs.map
+//# sourceMappingURL=chunk-Y7I3OVO3.mjs.map

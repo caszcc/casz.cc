@@ -1,14 +1,14 @@
-import { a as ft, b as mt } from "./chunk-J3GWXB6M.mjs";
-import { b as ct } from "./chunk-WUNQ76TS.mjs";
-import { a as Y } from "./chunk-BILIDZA3.mjs";
-import { b as dt } from "./chunk-VZJCJAEC.mjs";
-import { a as lt } from "./chunk-AAJI6265.mjs";
-import { a as j } from "./chunk-QFU6OGL3.mjs";
-import { gf as nt } from "./chunk-UUS4WEGC.mjs";
-import { a as o } from "./chunk-JTCAKYEM.mjs";
-import { a as Xt } from "./chunk-W774OHJB.mjs";
-import { c as M } from "./chunk-4JY5UMT2.mjs";
-import { e as r } from "./chunk-WLHSDIGQ.mjs";
+import { a as ft, b as mt } from "chunk-J3GWXB6M.mjs";
+import { b as ct } from "chunk-WUNQ76TS.mjs";
+import { a as Y } from "chunk-BILIDZA3.mjs";
+import { b as dt } from "chunk-VZJCJAEC.mjs";
+import { a as lt } from "chunk-AAJI6265.mjs";
+import { a as j } from "chunk-QFU6OGL3.mjs";
+import { gf as nt } from "chunk-UUS4WEGC.mjs";
+import { a as o } from "chunk-JTCAKYEM.mjs";
+import { a as Xt } from "chunk-W774OHJB.mjs";
+import { c as M } from "chunk-4JY5UMT2.mjs";
+import { e as r } from "chunk-WLHSDIGQ.mjs";
 var f = r(Xt());
 var pt = "t3iyy5",
   gt = "exff1tz",
@@ -578,22 +578,20 @@ function re(t, s) {
       } = s,
       i = t[n];
     if (!i) return t.concat([{ ...s, key: a || `_toast${ee++}`, count: 1 }]);
-    if (
-      !(
-        i.duration !== 1 / 0 ||
-        i.duration !== m ||
-        i.variant !== p ||
-        i.iconOverride !== c ||
-        i.icon !== w ||
-        i.styleOverride !== h ||
-        i.showCloseButton !== I ||
-        i.text !== b ||
-        i.primaryText !== d ||
-        i.secondaryText !== v ||
-        i.action?.title !== C?.title ||
-        i.extraAction?.title !== l?.title
-      )
-    )
+    if (!(
+      i.duration !== 1 / 0 ||
+      i.duration !== m ||
+      i.variant !== p ||
+      i.iconOverride !== c ||
+      i.icon !== w ||
+      i.styleOverride !== h ||
+      i.showCloseButton !== I ||
+      i.text !== b ||
+      i.primaryText !== d ||
+      i.secondaryText !== v ||
+      i.action?.title !== C?.title ||
+      i.extraAction?.title !== l?.title
+    ))
       return t;
     let u = i.duration === 1 / 0 && m !== 1 / 0,
       D = g && u && n < t.length - 1,
@@ -805,4 +803,4 @@ async function nr({ key: t, waitTime: s = 500, progress: a, success: n, error: m
   }
 }
 export { ir as a, U as b, nr as c };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-HHSQRZXJ.mjs.map
+//# sourceMappingURL=chunk-HHSQRZXJ.mjs.map

@@ -1,5 +1,5 @@
-import { a as t } from "./chunk-W774OHJB.mjs";
-import { e as n } from "./chunk-WLHSDIGQ.mjs";
+import { a as t } from "chunk-W774OHJB.mjs";
+import { e as n } from "chunk-WLHSDIGQ.mjs";
 var r = n(t(), 1);
 function u(e) {
   return e + 1;
@@ -9,4 +9,4 @@ function o() {
   return e;
 }
 export { o as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-SOX3JU6V.mjs.map
+//# sourceMappingURL=chunk-SOX3JU6V.mjs.map

@@ -1,5 +1,5 @@
-import { a as t } from "./chunk-JTCAKYEM.mjs";
-import { e as o } from "./chunk-WLHSDIGQ.mjs";
+import { a as t } from "chunk-JTCAKYEM.mjs";
+import { e as o } from "chunk-WLHSDIGQ.mjs";
 var r = o(t());
 function n(e) {
   return (0, r.jsx)("svg", {
@@ -21,4 +21,4 @@ function n(e) {
   });
 }
 export { n as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-IVDCOAA6.mjs.map
+//# sourceMappingURL=chunk-IVDCOAA6.mjs.map

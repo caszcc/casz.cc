@@ -1,5 +1,5 @@
-import { a as i } from "./chunk-KWIZ6NK4.mjs";
-import { c as n } from "./chunk-WLHSDIGQ.mjs";
+import { a as i } from "chunk-KWIZ6NK4.mjs";
+import { c as n } from "chunk-WLHSDIGQ.mjs";
 var a = n((t) => {
   "use strict";
   var e = i();
@@ -7,4 +7,4 @@ var a = n((t) => {
   var s;
 });
 export { a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-LQLFGCPO.mjs.map
+//# sourceMappingURL=chunk-LQLFGCPO.mjs.map

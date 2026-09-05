@@ -1,8 +1,8 @@
-import { o as U } from "./chunk-EERSFQYH.mjs";
-import { a as P } from "./chunk-67IDBBKJ.mjs";
-import { a as L } from "./chunk-W774OHJB.mjs";
-import { b as v } from "./chunk-4JY5UMT2.mjs";
-import { e as M } from "./chunk-WLHSDIGQ.mjs";
+import { o as U } from "chunk-EERSFQYH.mjs";
+import { a as P } from "chunk-67IDBBKJ.mjs";
+import { a as L } from "chunk-W774OHJB.mjs";
+import { b as v } from "chunk-4JY5UMT2.mjs";
+import { e as M } from "chunk-WLHSDIGQ.mjs";
 var b = M(L(), 1);
 var A = (0, b.createContext)(null);
 A.displayName = "EngineContext";
@@ -81,7 +81,7 @@ function F({ update: r, notify: e, unwatched: t }) {
         a = n.nextSub;
         continue;
       }
-      for (; d !== void 0; )
+      for (; d !== void 0;)
         if (((n = d.value), (d = d.prev), n !== void 0)) {
           a = n.nextSub;
           continue e;
@@ -111,7 +111,7 @@ function F({ update: r, notify: e, unwatched: t }) {
           continue;
         }
       }
-      for (; d--; ) {
+      for (; d--;) {
         if (((n = a.value), (a = a.prev), o)) {
           let D = i.subs;
           if (r(i)) {
@@ -139,7 +139,7 @@ function F({ update: r, notify: e, unwatched: t }) {
   }
   function C(n, i) {
     let a = i.depsTail;
-    for (; a !== void 0; ) {
+    for (; a !== void 0;) {
       if (a === n) return !0;
       a = a.prevDep;
     }
@@ -269,14 +269,14 @@ var V = class {
       ((y = e), (this.flags &= ~u.RecursedCheck));
       let t = this.depsTail,
         l = t !== void 0 ? t.nextDep : this.deps;
-      for (; l !== void 0; ) l = w(l, this);
+      for (; l !== void 0;) l = w(l, this);
     }
   }
   unwatch() {
     if (this.depsTail === void 0) return;
     this.flags = u.Mutable | u.Dirty;
     let t = this.depsTail;
-    for (; t !== void 0; ) {
+    for (; t !== void 0;) {
       let l = t.prevDep;
       (w(t, this), (t = l));
     }
@@ -309,7 +309,7 @@ var B = class {
   unwatch(e) {
     if (S) throw new Error("Cannot unwatch signal inside watcher");
     let t = this.depsTail;
-    for (; t !== void 0; ) {
+    for (; t !== void 0;) {
       let l = t.prevDep;
       (t.dep === e && w(t, this), (t = l));
     }
@@ -363,4 +363,4 @@ function te(r, e) {
   return H(() => r[e], [r, e]);
 }
 export { A as a, x as b, K as c, W as d, F as e, $ as f, ee as g, H as h, te as i };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-KLNCRFRA.mjs.map
+//# sourceMappingURL=chunk-KLNCRFRA.mjs.map

@@ -1,4 +1,4 @@
-import { a as n } from "./chunk-YRQ7G4QH.mjs";
+import { a as n } from "chunk-YRQ7G4QH.mjs";
 async function c() {
   try {
     return await navigator.permissions.query({ name: "storage-access" });
@@ -74,4 +74,4 @@ async function w(e) {
     : { status: "success", data: o, userId: s };
 }
 export { w as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-U25MALL7.mjs.map
+//# sourceMappingURL=chunk-U25MALL7.mjs.map

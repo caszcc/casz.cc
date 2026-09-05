@@ -1,5 +1,5 @@
-import { a as h, b as p, c as l, d as g, e as P, h as c, i as d } from "./chunk-JEV3BJWQ.mjs";
-import { b as r } from "./chunk-4JY5UMT2.mjs";
+import { a as h, b as p, c as l, d as g, e as P, h as c, i as d } from "chunk-JEV3BJWQ.mjs";
+import { b as r } from "chunk-4JY5UMT2.mjs";
 var u = class {
   shallowPageToChildrenStrings = new Map();
   idToShallowPage = new Map();
@@ -143,4 +143,4 @@ var u = class {
   }
 };
 export { u as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-P3AGDNRD.mjs.map
+//# sourceMappingURL=chunk-P3AGDNRD.mjs.map

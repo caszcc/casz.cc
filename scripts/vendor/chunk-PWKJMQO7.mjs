@@ -1,4 +1,4 @@
-import { q as m, r as u } from "./chunk-4BL4NTEI.mjs";
+import { q as m, r as u } from "chunk-4BL4NTEI.mjs";
 var d = class extends Error {
   code;
   data;
@@ -86,4 +86,4 @@ function w(s, e, r) {
   );
 }
 export { d as a, p as b, b as c, w as d };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-PWKJMQO7.mjs.map
+//# sourceMappingURL=chunk-PWKJMQO7.mjs.map

@@ -1,4 +1,4 @@
-import { c as t } from "./chunk-4JY5UMT2.mjs";
+import { c as t } from "chunk-4JY5UMT2.mjs";
 function s(e) {
   switch (e) {
     case 2:
@@ -15,4 +15,4 @@ function s(e) {
   }
 }
 export { s as a };
-//# sourceMappingURL=https://app.framerstatic.com/chunk-47P32JLD.mjs.map
+//# sourceMappingURL=chunk-47P32JLD.mjs.map
